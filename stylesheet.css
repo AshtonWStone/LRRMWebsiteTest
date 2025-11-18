@@ -56,7 +56,6 @@
 .brick_img_left {
   width: 300px; /* adjust as needed */
   height: auto;
-  border-radius: 8px;
       float: left;
 }
 
@@ -64,8 +63,7 @@
   font-size: 1rem;
   line-height: 1.5;
 font-weight: bold;
-border: 2px solid black;
-      margin-left: 100px;
+      margin-left: 200px;
 }
 
 @media (max-width: 768px) {
@@ -329,6 +327,7 @@ border: 2px solid black;
       }
 
     }
+
 
 
 
