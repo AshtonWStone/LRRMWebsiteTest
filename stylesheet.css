@@ -63,9 +63,13 @@ border-style: solid;
       float: left;
 }
 
-.brick_text dl {
+.small_brick_text {
   font-size: 1rem;
   line-height: 1.5;
+font-weight: bold;
+      border-style: dashed;
+      border-color: black;
+      border-width: heavy;
 }
 
 @media (max-width: 768px) {
@@ -329,6 +333,7 @@ border-style: solid;
       }
 
     }
+
 
 
 
