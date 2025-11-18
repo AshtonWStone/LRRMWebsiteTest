@@ -47,12 +47,9 @@
     }
 .small_brick {
   display: flex;
-  align-items: center;
   gap: 2rem; /* space between image and text */
   margin: 2rem 0;
-border-style: solid;
-      border-width: medium;
-      border-color:red;
+
 }
 
 
@@ -332,6 +329,7 @@ border: 2px solid black;
       }
 
     }
+
 
 
 
