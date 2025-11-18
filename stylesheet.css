@@ -45,16 +45,13 @@
       text-stroke: 0.25px rgb(200, 195, 142);
       paint-order: stroke fill;
     }
-.brick-row {
+.small_brick {
   display: flex;
   align-items: center;
   gap: 2rem; /* space between image and text */
   margin: 2rem 0;
 }
 
-.brick-row.reverse {
-  flex-direction: row-reverse; /* reverses the order for alternating layout */
-}
 
 .brick_img_left {
   width: 300px; /* adjust as needed */
@@ -329,6 +326,7 @@
       }
 
     }
+
 
 
 
