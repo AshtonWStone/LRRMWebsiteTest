@@ -56,10 +56,11 @@
   flex-direction: row-reverse; /* reverses the order for alternating layout */
 }
 
-.brick_img img {
+.brick_img_left {
   width: 300px; /* adjust as needed */
   height: auto;
   border-radius: 8px;
+      float: left;
 }
 
 .brick_text dl {
@@ -328,6 +329,7 @@
       }
 
     }
+
 
 
 
