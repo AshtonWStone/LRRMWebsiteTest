@@ -68,7 +68,7 @@ border-style: solid;
   line-height: 1.5;
 font-weight: bold;
 border: 2px solid black;
-      float: right;
+      margin-left: 100px;
 }
 
 @media (max-width: 768px) {
@@ -332,6 +332,7 @@ border: 2px solid black;
       }
 
     }
+
 
 
 
