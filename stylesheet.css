@@ -45,6 +45,10 @@
       text-stroke: 0.25px rgb(200, 195, 142);
       paint-order: stroke fill;
     }
+.bricks {
+margin-top: 10px;
+      bottom: 20px;
+}
 .small_brick {
   display: flex;
   gap: 2rem; /* space between image and text */
@@ -327,6 +331,7 @@ font-weight: bold;
       }
 
     }
+
 
 
 
