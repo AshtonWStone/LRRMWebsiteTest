@@ -67,9 +67,8 @@ border-style: solid;
   font-size: 1rem;
   line-height: 1.5;
 font-weight: bold;
-      border-style: dashed;
-      border-color: black;
-      border-width: heavy;
+border: 2px solid black;
+      float: right;
 }
 
 @media (max-width: 768px) {
@@ -333,6 +332,7 @@ font-weight: bold;
       }
 
     }
+
 
 
 
