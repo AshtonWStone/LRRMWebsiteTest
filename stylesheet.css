@@ -1,0 +1,294 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4nom9QD2dXAyEfgAlWQxr3-Z_XacK6tn1wBqmgEhG_JKkWqSb0aDDo82mk5v670uvE4uK0PQDG-Oi7jPug7MyxiYoTVCFcBqa8J2jsC10YZKeo0c6p2kLAJapAIsjOOSr85BE7s=s680-w680-h510-rw');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      width: 100%;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%);
+    }
+
+    h1 {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 700;
+      z-index: 1;
+      padding: 0 20px;
+      font-family: 'Libre Baskerville', serif;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+      -webkit-text-stroke: 0.25px rgb(200, 195, 142);
+      text-stroke: 0.25px rgb(200, 195, 142);
+      paint-order: stroke fill;
+    }
+
+    nav {
+      background: #334425;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .nav-container {
+      display: inline-block;
+      margin: 0 auto;
+      width: 100%;
+    }
+     nav ul {
+      display: inline-flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    nav li:not(:first-child)::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      bottom: 0.5rem;
+      width: 0.25px;
+      background-color: rgba(244, 241, 233, 0.3);
+    }
+
+    nav a {
+      color: #F4F1E9;
+      text-decoration: none;
+      padding: 1rem 1.25rem;
+      display: inline-block;
+      font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      transition: all 0.3s;
+      -webkit-text-stroke: 0.25px rgb(200, 195, 142);
+      text-stroke: 0.25px rgb(200, 195, 142);
+      white-space: nowrap;
+    }
+
+    nav a:hover {
+      background-color: rgba(0,0,0,0.1);
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      width: 100%;
+      margin: 40px auto;
+      align-items: flex-end;
+      padding: 0 20px;
+    }
+
+    .about-image {
+      flex: 1;
+      padding-right: 40px;
+      display: flex;
+      align-items: flex-end;
+      min-width: 280px;
+    }
+
+    .about-image img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .about-text {
+      flex: 1;
+      padding: 20px;
+      min-width: 280px;
+    }
+
+    .about-text h2 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #334425;
+      text-align: center;
+    }
+
+    .about-text p {
+      line-height: 1.5;
+      font-size: 1.1rem;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
+    }
+
+    .full-width-banner {
+      background-color: #334425;
+      width: 100%;
+      padding: 60px 20px;
+      margin-top: 40px;
+      position: relative;
+    }
+
+    .banner-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 40px;
+      position: relative;
+      color: #F4F1E9;
+      -webkit-text-stroke: 0.125px rgb(200, 195, 142);
+      text-stroke: 0.125px rgb(200, 195, 142);
+    }
+
+    .banner-section {
+      padding: 0 20px;
+    }
+
+    .banner-section h3 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 700;
+      -webkit-text-stroke: 0.125px rgb(200, 195, 142);
+      text-stroke: 0.125px rgb(200, 195, 142);
+    }
+
+    .banner-section p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .banner-section strong {
+      -webkit-text-stroke: 0.125px rgb(200, 195, 142);
+      text-stroke: 0.125px rgb(200, 195, 142);
+    }
+
+    .divider-line {
+      position: absolute;
+      top: calc(15% - 0.5in);
+      bottom: calc(15% - 0.5in);
+      width: 0.5px;
+      background-color: rgb(200, 195, 142);
+    }
+
+    .divider-line:nth-child(1) {
+      left: 33.33%;
+    }
+
+    .divider-line:nth-child(2) {
+      left: 66.66%;
+    }
+
+    main {
+      padding: 30px 20px;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    nav::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    nav::-webkit-scrollbar-track {
+      background: #22331A;
+    }
+
+    nav::-webkit-scrollbar-thumb {
+      background: #F4F1E9;
+      border-radius: 2px;
+    }
+
+    @media (max-width: 900px) {
+      .about-section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-image {
+        padding-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+
+      .about-image img {
+        max-height: 300px;
+      }
+
+      .about-text {
+        padding: 0 20px;
+        width: 100%;
+      }
+
+      .banner-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .divider-line {
+        display: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        padding: 1rem 0.75rem;
+        font-size: 0.75rem;
+      }
+
+      .about-text h2 {
+        font-size: 1.5rem;
+      }
+
+      .about-text p {
+        font-size: 1rem;
+      }
+
+      .full-width-banner {
+        padding: 40px 20px;
+      }
+
+      .banner-section h3 {
+        font-size: 1.3rem;
+      }
+    }
