@@ -50,8 +50,8 @@
   align-items: center;
   gap: 2rem; /* space between image and text */
   margin: 2rem 0;
-      border_color: red;
-      border_weight: bold;
+border-style: solid;
+      border-width: medium;
 }
 
 
@@ -328,6 +328,7 @@
       }
 
     }
+
 
 
 
