@@ -45,6 +45,13 @@
       text-stroke: 0.25px rgb(200, 195, 142);
       paint-order: stroke fill;
     }
+.sm_brick {
+}
+.med_brick {
+}
+.lrg_brick {
+}
+
 
     nav {
       background: #334425;
@@ -291,4 +298,5 @@
       .banner-section h3 {
         font-size: 1.3rem;
       }
+
     }
