@@ -45,32 +45,39 @@
       text-stroke: 0.25px rgb(200, 195, 142);
       paint-order: stroke fill;
     }
-.sm_brick {
-   display: flex;
-      flex-wrap: wrap;
-      max-width: 1200px;
-      width: 100%;
-      margin: 40px auto;
-      align-items: flex-end;
-      padding: 0 20px;
+.brick-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* space between image and text */
+  margin: 2rem 0;
 }
-.med_brick {
-   display: flex;
-      flex-wrap: wrap;
-      max-width: 1200px;
-      width: 100%;
-      margin: 40px auto;
-      align-items: flex-end;
-      padding: 0 20px;
+
+.brick-row.reverse {
+  flex-direction: row-reverse; /* reverses the order for alternating layout */
 }
-.lrg_brick {
-   display: flex;
-      flex-wrap: wrap;
-      max-width: 1200px;
-      width: 100%;
-      margin: 40px auto;
-      align-items: flex-end;
-      padding: 0 20px;
+
+.brick_img img {
+  width: 300px; /* adjust as needed */
+  height: auto;
+  border-radius: 8px;
+}
+
+.brick_text dl {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .brick-row,
+  .brick-row.reverse {
+    flex-direction: column; /* stack on small screens */
+    text-align: center;
+  }
+
+  .brick_img img {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 
@@ -321,5 +328,6 @@
       }
 
     }
+
 
 
