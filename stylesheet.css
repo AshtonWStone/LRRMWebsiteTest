@@ -69,6 +69,7 @@ margin-top: 10px;
 font-weight: bold;
       margin-left: 300px;
       margin-top: 500px;
+      display: flex;
 }
 
 @media (max-width: 768px) {
@@ -332,6 +333,7 @@ font-weight: bold;
       }
 
     }
+
 
 
 
