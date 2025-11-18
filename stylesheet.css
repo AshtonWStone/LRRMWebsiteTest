@@ -46,10 +46,13 @@
       paint-order: stroke fill;
     }
 .sm_brick {
+      align: Left;
 }
 .med_brick {
+       align: center;
 }
 .lrg_brick {
+       align: right;
 }
 
 
@@ -300,3 +303,4 @@
       }
 
     }
+
