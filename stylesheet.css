@@ -6,53 +6,6 @@
 
     body {
       font-family: 'Open Sans', sans-serif;
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Little River Railroad and Lumber Co. Museum</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
-  <link href="stylesheet.css" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <h1>Little River Railroad and Lumber Co. Museum</h1>
-  </header>
-
-  <nav>
-    <div class="nav-container">
-      <ul>
-<li><a href="/LRRMWebsiteTest/index.html">Home</a></li>
-<li><a href="/LRRMWebsiteTest/events.html">Events</a></li>
-<li><a href="/LRRMWebsiteTest/contact.html">Contact Us</a></li>
-<li><a href="/LRRMWebsiteTest/displays.html">Displays</a></li>
-<li><a href="/LRRMWebsiteTest/donate.html">Donate</a></li>
-<li><a href="/LRRMWebsiteTest/membership.html">Membership</a></li>
-<li><a href="/LRRMWebsiteTest/bricks.html">Memorial Bricks</a></li>
-<li><a href="/LRRMWebsiteTest/semaphore.html">Semaphore</a></li>
-<li><a href="/LRRMWebsiteTest/shop.html">Shop</a></li>
-      </ul>
-    </div>
-  </nav>
-</body>
-  <div class="shop-sections">
-    <ul>
-  <li><a href="/LRRMWebsiteTest/shirts.html" class="shop-click1">Shirts</a></li>
-    <li><a href="/LRRMWebsiteTest/books_dvds.html" class="shop-click2">Books and DVDs</a></li>
-    <li><a href="/LRRMWebsiteTest/maps.html" class="shop-click3">Maps</a></li>
-    <li><a href="/LRRMWebsiteTest/hats.html" class="shop-click4" >Hats</a></li>
-    <li><a href="/LRRMWebsiteTest/toys.html"class="shop-click5" >Toys</a></li>
-    <li><a href="/LRRMWebsiteTest/christmas.html" class="shop-click6">Christmas Themed Items</a></li>
-    <li><a href="/LRRMWebsiteTest/models.html" class="shop-click7">Model Trains</a></li>
-    <li><a href="/LRRMWebsiteTest/bricks_memberships.html" class="shop-click8">Bricks and Memberships</a></li>
-    </ul>
-    </div>
-</html>
       background-color: #ffffff;
       color: #333;
     }
@@ -458,6 +411,7 @@ align: center;
       }
 
     }
+
 
 
 
