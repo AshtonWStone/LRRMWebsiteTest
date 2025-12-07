@@ -129,7 +129,7 @@ align: center;
 }
 .shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
   padding: 10px 16px;
-  color: white;
+  border-color: red;
   border-radius: 6px;
   text-decoration: none;
             width: 25px;
@@ -411,6 +411,7 @@ align: center;
     }
 
  
+
 
 
 
