@@ -1,473 +1,463 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
-    color: #333;
-}
+    body {
+      font-family: 'Open Sans', sans-serif;
 
-header {
-    background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4nom9QD2dXAyEfgAlWQxr3-Z_XacK6tn1wBqmgEhG_JKkWqSb0aDDo82mk5v670uvE4uK0PQDG-Oi7jPug7MyxiYoTVCFcBqa8J2jsC10YZKeo0c6p2kLAJapAIsjOOSr85BE7s=s680-w680-h510-rw');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    width: 100%;
-}
 
-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%);
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little River Railroad and Lumber Co. Museum</title>
 
-h1 {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 700;
-    z-index: 1;
-    padding: 0 20px;
-    font-family: 'Libre Baskerville', serif;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-    -webkit-text-stroke: 0.25px rgb(200, 195, 142);
-    text-stroke: 0.25px rgb(200, 195, 142);
-    paint-order: stroke fill;
-}
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link href="stylesheet.css" rel="stylesheet">
+</head>
 
-/* NAVIGATION STYLES */
-nav {
-    background: #334425;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: center;
-}
+<body>
+  <header>
+    <h1>Little River Railroad and Lumber Co. Museum</h1>
+  </header>
 
-.nav-container {
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
-}
+  <nav>
+    <div class="nav-container">
+      <ul>
+<li><a href="/LRRMWebsiteTest/index.html">Home</a></li>
+<li><a href="/LRRMWebsiteTest/events.html">Events</a></li>
+<li><a href="/LRRMWebsiteTest/contact.html">Contact Us</a></li>
+<li><a href="/LRRMWebsiteTest/displays.html">Displays</a></li>
+<li><a href="/LRRMWebsiteTest/donate.html">Donate</a></li>
+<li><a href="/LRRMWebsiteTest/membership.html">Membership</a></li>
+<li><a href="/LRRMWebsiteTest/bricks.html">Memorial Bricks</a></li>
+<li><a href="/LRRMWebsiteTest/semaphore.html">Semaphore</a></li>
+<li><a href="/LRRMWebsiteTest/shop.html">Shop</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
+  <div class="shop-sections">
+    <ul>
+  <li><a href="/LRRMWebsiteTest/shirts.html" class="shop-click1">Shirts</a></li>
+    <li><a href="/LRRMWebsiteTest/books_dvds.html" class="shop-click2">Books and DVDs</a></li>
+    <li><a href="/LRRMWebsiteTest/maps.html" class="shop-click3">Maps</a></li>
+    <li><a href="/LRRMWebsiteTest/hats.html" class="shop-click4" >Hats</a></li>
+    <li><a href="/LRRMWebsiteTest/toys.html"class="shop-click5" >Toys</a></li>
+    <li><a href="/LRRMWebsiteTest/christmas.html" class="shop-click6">Christmas Themed Items</a></li>
+    <li><a href="/LRRMWebsiteTest/models.html" class="shop-click7">Model Trains</a></li>
+    <li><a href="/LRRMWebsiteTest/bricks_memberships.html" class="shop-click8">Bricks and Memberships</a></li>
+    </ul>
+    </div>
+</html>
+      background-color: #ffffff;
+      color: #333;
+    }
 
-nav ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+    header {
+      background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4nom9QD2dXAyEfgAlWQxr3-Z_XacK6tn1wBqmgEhG_JKkWqSb0aDDo82mk5v670uvE4uK0PQDG-Oi7jPug7MyxiYoTVCFcBqa8J2jsC10YZKeo0c6p2kLAJapAIsjOOSr85BE7s=s680-w680-h510-rw');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      width: 100%;
+    }
 
-nav li {
-    position: relative;
-    flex-shrink: 0;
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%);
+    }
+article{
+  background-color: rgb(200, 195, 142);
 }
-
-nav li:not(:first-child)::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.5rem;
-    bottom: 0.5rem;
-    width: 0.25px;
-    background-color: rgba(244, 241, 233, 0.3);
-}
-
-nav a {
-    color: #F4F1E9;
-    text-decoration: none;
-    padding: 1rem 1.25rem;
-    display: inline-block;
-    font-size: clamp(0.7rem, 1.5vw, 0.85rem);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 500;
-    transition: all 0.3s;
-    -webkit-text-stroke: 0.25px rgb(200, 195, 142);
-    text-stroke: 0.25px rgb(200, 195, 142);
-    white-space: nowrap;
-}
-
-nav a:hover {
-    background-color: rgba(0,0,0,0.1);
-}
-
-/* SHOP BUTTONS STYLES - FIXED */
-.shop-sections {
-    margin: 20px auto;
-    padding: 20px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-.shop-sections ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
-    gap: 15px;
-}
-
-.shop-sections li {
-    margin: 0;
-}
-
-.shop-click1, .shop-click2, .shop-click3, .shop-click4, 
-.shop-click5, .shop-click6, .shop-click7, .shop-click8 {
-    display: block;
-    width: 80px;
-    height: 80px;
-    border-radius: 6px;
-    text-decoration: none;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 2px solid #334425;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-indent: -9999px; /* Hide text, show only image */
-    overflow: hidden;
-}
-
-.shop-click1:hover, .shop-click2:hover, .shop-click3:hover, .shop-click4:hover,
-.shop-click5:hover, .shop-click6:hover, .shop-click7:hover, .shop-click8:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* Individual button background images */
-.shop-click1 {
-    background-image: url('/LRRMWebsiteTest/Photos/shirts.jpg');
-}
-.shop-click2 {
-    background-image: url('/LRRMWebsiteTest/Photos/Books.jpg');
-}
-.shop-click3 {
-    background-image: url('/LRRMWebsiteTest/Photos/Maps.jpg');
-}
-.shop-click4 {
-    background-image: url('/LRRMWebsiteTest/Photos/Hats.png');
-}
-.shop-click5 {
-    background-image: url('/LRRMWebsiteTest/Photos/Toy.png');
-}
-.shop-click6 {
-    background-image: url('/LRRMWebsiteTest/Photos/Christmas.jpg');
-}
-.shop-click7 {
-    background-image: url('/LRRMWebsiteTest/Photos/model\ train.jpg');
-}
-.shop-click8 {
-    background-image: url('/LRRMWebsiteTest/Photos/small_brick.png');
-}
-
-/* Remove any conflicting styles */
-.shop-sections-container {
-    display: none; /* Hide if not used */
-}
-
-/* Rest of your existing styles remain the same */
-article {
-    background-color: rgb(200, 195, 142);
-}
-
 .bricks h1 {
-    font-weight: bold;
-    color: #334425;
+  font-weight:bold;
+  color: #334425;
 }
-
 .bricks p {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 1em;
 }
-
+    h1 {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 700;
+      z-index: 1;
+      padding: 0 20px;
+      font-family: 'Libre Baskerville', serif;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+      -webkit-text-stroke: 0.25px rgb(200, 195, 142);
+      text-stroke: 0.25px rgb(200, 195, 142);
+      paint-order: stroke fill;
+    }
 .bricks {
-    margin-top: 10px;
-    bottom: 20px;
+margin-top: 10px;
+      bottom: 20px;
 }
-
 .small_brick {
-    display: flex;
-    gap: 2rem;
-    margin: 2rem 0;
+  display: flex;
+  gap: 2rem; /* space between image and text */
+  margin: 2rem 0;
 }
-
 .brick_img {
-    width: 500px;
-    height: 400px;
-    object-fit: contain;
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
 }
-
 .small_brick_text {
-    font-size: 1.4em;
-    line-height: 2.0;
-    margin-left: 400px;
-    margin-top: 50px;
+  font-size: 1.4em;
+  line-height: 2.0;
+margin-left: 400px;
+margin-top: 50px;
 }
-
 .med_brick {
-    display: flex;
-    gap: 2rem;
-    margin: 2rem 0;
+  display: flex;
+  gap: 2rem; /* space between image and text */
+  margin: 2rem 0;
 }
 
 .med_brick_text {
-    font-size: 1.4em;
-    line-height: 2.0;
-    margin-left: 300px;
-    margin-top: 50px;
+  font-size: 1.4em;
+  line-height: 2.0;
+margin-left: 300px;
+margin-top: 50px;
 }
 
 .large_brick {
-    display: flex;
-    gap: 2rem;
-    margin: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  margin: 2 rem 0;
 }
 
 .large_brick_text {
-    font-size: 1.4em;
-    line-height: 2.0;
-    margin-left: 300px;
-    margin-top: 50px;
+  font-size: 1.4em;
+line-height: 2.0;
+margin-left: 300px;
+margin-top: 50px;
 }
 
 @media (max-width: 768px) {
-    .brick-row,
-    .brick-row.reverse {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .brick_img img {
-        width: 80%;
-        margin: 0 auto;
-    }
-    
-    .shop-sections ul {
-        gap: 10px;
-    }
-    
-    .shop-click1, .shop-click2, .shop-click3, .shop-click4, 
-    .shop-click5, .shop-click6, .shop-click7, .shop-click8 {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-/* Rest of your existing styles */
-.about-section {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    width: 100%;
-    margin: 40px auto;
-    align-items: flex-end;
-    padding: 0 20px;
-}
-
-.about-image {
-    flex: 1;
-    padding-right: 40px;
-    display: flex;
-    align-items: flex-end;
-    min-width: 280px;
-}
-
-.about-image img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.about-text {
-    flex: 1;
-    padding: 20px;
-    min-width: 280px;
-}
-
-.about-text h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #334425;
+  .brick-row,
+  .brick-row.reverse {
+    flex-direction: column; /* stack on small screens */
     text-align: center;
-}
+  }
 
-.about-text p {
-    line-height: 1.5;
-    font-size: 1.1rem;
-    font-weight: 400;
-    text-align: center;
-    margin: 0;
-}
-
-.full-width-banner {
-    background-color: #334425;
-    width: 100%;
-    padding: 60px 20px;
-    margin-top: 40px;
-    position: relative;
-}
-
-.banner-content {
-    max-width: 1200px;
+  .brick_img img {
+    width: 80%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 40px;
-    position: relative;
-    color: #F4F1E9;
-    -webkit-text-stroke: 0.125px rgb(200, 195, 142);
-    text-stroke: 0.125px rgb(200, 195, 142);
+  }
+}
+.shop-sections-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      gap: 10px;
+}
+.shop-sections  ul li a {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+align: center;
 }
 
-.banner-section {
-    padding: 0 20px;
+.shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
+  padding: 10px 16px;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+            width: 25px;
+      height: 25px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
 }
-
-.banner-section h3 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    text-align: center;
-    font-weight: 700;
-    -webkit-text-stroke: 0.125px rgb(200, 195, 142);
-    text-stroke: 0.125px rgb(200, 195, 142);
+.shop-click1 {
+      background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);
+      
 }
-
-.banner-section p {
-    line-height: 1.6;
-    margin-bottom: 15px;
-    text-align: center;
+.shop-click2 {
+      background-image:url(/LRRMWebsiteTest/Photos/Books.jpg);
 }
-
-.banner-section strong {
-    -webkit-text-stroke: 0.125px rgb(200, 195, 142);
-    text-stroke: 0.125px rgb(200, 195, 142);
+.shop-click3 {
+      background-image:url(/LRRMWebsiteTest/Photos/Maps.jpg);
 }
-
-.divider-line {
-    position: absolute;
-    top: calc(15% - 0.5in);
-    bottom: calc(15% - 0.5in);
-    width: 0.5px;
-    background-color: rgb(200, 195, 142);
+.shop-click4 {
+      background-image:url(/LRRMWebsiteTest/Photos/Hats.png);
 }
-
-.divider-line:nth-child(1) {
-    left: 33.33%;
+.shop-click5 {
+      background-image:url(/LRRMWebsiteTest/Photos/Toy.png);
 }
-
-.divider-line:nth-child(2) {
-    left: 66.66%;
+.shop-click6 {
+      background-image:url(/LRRMWebsiteTest/Photos/Christmas.jpg);
 }
-
-main {
-    padding: 30px 20px;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+.shop-click7 {
+      background-image:url(/LRRMWebsiteTest/Photos/model train.jpg);
 }
-
-nav::-webkit-scrollbar {
-    height: 4px;
+.shop-click8 {
+      background-image:url(/LRRMWebsiteTest/Photos/small_brick.png);
 }
-
-nav::-webkit-scrollbar-track {
-    background: #22331A;
-}
-
-nav::-webkit-scrollbar-thumb {
-    background: #F4F1E9;
-    border-radius: 2px;
-}
-
-@media (max-width: 900px) {
-    .about-section {
-        flex-direction: column;
-        align-items: center;
+      nav {
+      background: #334425;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
     }
 
-    .about-image {
-        padding-right: 0;
-        margin-bottom: 30px;
-        width: 100%;
+    .nav-container {
+      display: inline-block;
+      margin: 0 auto;
+      width: 100%;
+    }
+     nav ul {
+      display: inline-flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      flex-wrap: wrap;
     }
 
-    .about-image img {
-        max-height: 300px;
+    nav li {
+      position: relative;
+      flex-shrink: 0;
     }
 
-    .about-text {
-        padding: 0 20px;
-        width: 100%;
-    }
-
-    .banner-content {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-
-    .divider-line {
-        display: none;
-    }
-}
-
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.8rem;
+    nav li:not(:first-child)::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      bottom: 0.5rem;
+      width: 0.25px;
+      background-color: rgba(244, 241, 233, 0.3);
     }
 
     nav a {
-        padding: 1rem 0.75rem;
-        font-size: 0.75rem;
+      color: #F4F1E9;
+      text-decoration: none;
+      padding: 1rem 1.25rem;
+      display: inline-block;
+      font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      transition: all 0.3s;
+      -webkit-text-stroke: 0.25px rgb(200, 195, 142);
+      text-stroke: 0.25px rgb(200, 195, 142);
+      white-space: nowrap;
+    }
+
+    nav a:hover {
+      background-color: rgba(0,0,0,0.1);
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      width: 100%;
+      margin: 40px auto;
+      align-items: flex-end;
+      padding: 0 20px;
+    }
+
+    .about-image {
+      flex: 1;
+      padding-right: 40px;
+      display: flex;
+      align-items: flex-end;
+      min-width: 280px;
+    }
+
+    .about-image img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .about-text {
+      flex: 1;
+      padding: 20px;
+      min-width: 280px;
     }
 
     .about-text h2 {
-        font-size: 1.5rem;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #334425;
+      text-align: center;
     }
 
     .about-text p {
-        font-size: 1rem;
+      line-height: 1.5;
+      font-size: 1.1rem;
+      font-weight: 400;
+      text-align: center;
+      margin: 0;
     }
 
     .full-width-banner {
-        padding: 40px 20px;
+      background-color: #334425;
+      width: 100%;
+      padding: 60px 20px;
+      margin-top: 40px;
+      position: relative;
+    }
+
+    .banner-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 40px;
+      position: relative;
+      color: #F4F1E9;
+      -webkit-text-stroke: 0.125px rgb(200, 195, 142);
+      text-stroke: 0.125px rgb(200, 195, 142);
+    }
+
+    .banner-section {
+      padding: 0 20px;
     }
 
     .banner-section h3 {
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      text-align: center;
+      font-weight: 700;
+      -webkit-text-stroke: 0.125px rgb(200, 195, 142);
+      text-stroke: 0.125px rgb(200, 195, 142);
+    }
+
+    .banner-section p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .banner-section strong {
+      -webkit-text-stroke: 0.125px rgb(200, 195, 142);
+      text-stroke: 0.125px rgb(200, 195, 142);
+    }
+
+    .divider-line {
+      position: absolute;
+      top: calc(15% - 0.5in);
+      bottom: calc(15% - 0.5in);
+      width: 0.5px;
+      background-color: rgb(200, 195, 142);
+    }
+
+    .divider-line:nth-child(1) {
+      left: 33.33%;
+    }
+
+    .divider-line:nth-child(2) {
+      left: 66.66%;
+    }
+
+    main {
+      padding: 30px 20px;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    nav::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    nav::-webkit-scrollbar-track {
+      background: #22331A;
+    }
+
+    nav::-webkit-scrollbar-thumb {
+      background: #F4F1E9;
+      border-radius: 2px;
+    }
+
+    @media (max-width: 900px) {
+      .about-section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-image {
+        padding-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+
+      .about-image img {
+        max-height: 300px;
+      }
+
+      .about-text {
+        padding: 0 20px;
+        width: 100%;
+      }
+
+      .banner-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .divider-line {
+        display: none;
+      }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        padding: 1rem 0.75rem;
+        font-size: 0.75rem;
+      }
+
+      .about-text h2 {
+        font-size: 1.5rem;
+      }
+
+      .about-text p {
+        font-size: 1rem;
+      }
+
+      .full-width-banner {
+        padding: 40px 20px;
+      }
+
+      .banner-section h3 {
         font-size: 1.3rem;
+      }
+
     }
-    
-    .shop-sections ul {
-        gap: 8px;
-    }
-    
-    .shop-click1, .shop-click2, .shop-click3, .shop-click4, 
-    .shop-click5, .shop-click6, .shop-click7, .shop-click8 {
-        width: 50px;
-        height: 50px;
-    }
-}
+
 
 
