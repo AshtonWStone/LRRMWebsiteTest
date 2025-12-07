@@ -118,11 +118,17 @@ margin-top: 50px;
       display: inline-block;
       width: auto;
 }
+.shop-sections ul {
+  display: flex;
+  gap: 10px; /* spacing between buttons */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
 
 .shop-click {
-display: flex;
-  padding: 10px 16px;
-  background: green;
+  background: pink;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -377,6 +383,7 @@ display: flex;
       }
 
     }
+
 
 
 
