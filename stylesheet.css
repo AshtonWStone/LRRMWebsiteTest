@@ -114,6 +114,12 @@ margin-top: 50px;
     margin: 0 auto;
   }
 }
+.shop-sections-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      gap: 10px;
+}
 
       nav {
       background: #334425;
@@ -364,6 +370,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
