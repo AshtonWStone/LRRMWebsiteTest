@@ -133,8 +133,8 @@ align: center;
   color: white;
   border-radius: 6px;
   text-decoration: none;
-            width: 25px;
-      height: 25px;
+            width: 125px;
+      height: 125px;
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -411,6 +411,7 @@ align: center;
       }
 
     }
+
 
 
 
