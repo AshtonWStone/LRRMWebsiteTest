@@ -129,8 +129,13 @@ margin-top: 50px;
       text-align: center;
 }
 .shop-click1 {
-      border-style: dotted;
-      border-weight: 2px;
+display: inline-block;
+  padding: 10px 16px;
+  background: #005bbb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.2s;
 }
 
     nav {
@@ -380,6 +385,7 @@ margin-top: 50px;
       }
 
     }
+
 
 
 
