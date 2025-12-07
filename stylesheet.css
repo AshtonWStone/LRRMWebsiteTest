@@ -128,68 +128,21 @@ align: center;
 
 }
 
-.shop-click1 {
+.shop-click1 , .shop-click3 , .shop-click5 , shop-click7 {
   padding: 10px 16px;
   background: blue;
   color: white;
   border-radius: 6px;
   text-decoration: none;
 }
-.shop-click2 {
+.shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
   padding: 10px 16px;
   background: red;
   color: white;
   border-radius: 6px;
   text-decoration: none;
 }
-.shop-click3 {
-  padding: 10px 16px;
-  background: blue;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-}
-.shop-click4 {
-  padding: 10px 16px;
-  background: red;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-}
-.shop-click5 {
-  padding: 10px 16px;
-  background: blue;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-}
-.shop-click6 {
-  padding: 10px 16px;
-  background: red;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-}
-.shop-click7 {
-  padding: 10px 16px;
-  background: blue;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-}
-.shop-click8 {
-  padding: 10px 16px;
-  background: red;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-}
-
-
-
-
-
-    nav {
+      nav {
       background: #334425;
       position: sticky;
       top: 0;
@@ -436,6 +389,7 @@ align: center;
       }
 
     }
+
 
 
 
