@@ -122,7 +122,7 @@ margin-top: 50px;
 .shop-click {
 display: flex;
   padding: 10px 16px;
-  background: red;
+  background: green;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -377,6 +377,7 @@ display: flex;
       }
 
     }
+
 
 
 
