@@ -32,7 +32,18 @@
       bottom: 0;
       background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%);
     }
-
+article{
+  background-color: rgb(200, 195, 142);
+}
+.bricks h1 {
+  font-weight:bold;
+  color: #334425;
+}
+.bricks p {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 1em;
+}
     h1 {
       color: white;
       font-size: 2.5rem;
@@ -53,22 +64,42 @@ margin-top: 10px;
   display: flex;
   gap: 2rem; /* space between image and text */
   margin: 2rem 0;
-
 }
-
-
-.brick_img_left {
-  width: 300px; /* adjust as needed */
-  height: auto;
-      float: left;
+.brick_img {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
 }
-
 .small_brick_text {
-      color: red;
-      background-color: green;
-  font-size: 4rem;
-  line-height: 1.5;
-font-weight: bold;
+  font-size: 1.4em;
+  line-height: 2.0;
+margin-left: 400px;
+margin-top: 50px;
+}
+.med_brick {
+  display: flex;
+  gap: 2rem; /* space between image and text */
+  margin: 2rem 0;
+}
+
+.med_brick_text {
+  font-size: 1.4em;
+  line-height: 2.0;
+margin-left: 300px;
+margin-top: 50px;
+}
+
+.large_brick {
+  display: flex;
+  gap: 2rem;
+  margin: 2 rem 0;
+}
+
+.large_brick_text {
+  font-size: 1.4em;
+line-height: 2.0;
+margin-left: 300px;
+margin-top: 50px;
 }
 
 @media (max-width: 768px) {
@@ -332,6 +363,14 @@ font-weight: bold;
       }
 
     }
+
+
+
+
+
+
+
+
 
 
 
