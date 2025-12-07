@@ -113,19 +113,27 @@ margin-top: 50px;
     width: 80%;
     margin: 0 auto;
   }
-.shop-sections-container {
-      display: flex;
-      justify-content: center;
-      margin-top: 100px;
-      gap: 10px;
-}
-.shop-sections  ul li a {
+.shop-sections {
   display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.shop-sections ul {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
-  align: center;
+  justify-content: center;
+  gap: 15px;
 }
+
+.shop-sections li {
+  margin: 0;
+}
+
 
 .shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
   padding: 10px 16px;
@@ -410,4 +418,5 @@ margin-top: 50px;
       }
 
     }
+
 
