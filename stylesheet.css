@@ -135,16 +135,17 @@ margin-top: 50px;
 }
 
 
-.shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
-  padding: 10px 16px;
-  color: white;
+.shop-click1, .shop-click2, .shop-click3, .shop-click4, 
+.shop-click5, .shop-click6, .shop-click7, .shop-click8 {
+  display: block;
+  width: 80px;
+  height: 80px;
   border-radius: 6px;
   text-decoration: none;
-            width: 25px;
-      height: 25px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid red;
 }
 .shop-click1 {
       background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);
@@ -418,5 +419,6 @@ margin-top: 50px;
       }
 
     }
+
 
 
