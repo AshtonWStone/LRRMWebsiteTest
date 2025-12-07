@@ -124,16 +124,68 @@ margin-top: 50px;
   list-style: none;
   padding: 0;
   margin: 0;
+align: center;
 
 }
 
-.shop-click {
+.shop-click1 {
   padding: 10px 16px;
   background: blue;
   color: white;
   border-radius: 6px;
   text-decoration: none;
 }
+.shop-click2 {
+  padding: 10px 16px;
+  background: red;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.shop-click3 {
+  padding: 10px 16px;
+  background: blue;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.shop-click4 {
+  padding: 10px 16px;
+  background: red;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.shop-click5 {
+  padding: 10px 16px;
+  background: blue;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.shop-click6 {
+  padding: 10px 16px;
+  background: red;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.shop-click7 {
+  padding: 10px 16px;
+  background: blue;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.shop-click8 {
+  padding: 10px 16px;
+  background: red;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+
 
 
 
@@ -384,6 +436,7 @@ margin-top: 50px;
       }
 
     }
+
 
 
 
