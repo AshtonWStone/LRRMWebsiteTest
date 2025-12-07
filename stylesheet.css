@@ -114,7 +114,7 @@ margin-top: 50px;
     margin: 0 auto;
   }
 }
-.shop-sections-container {
+.shop-sections-container ul {
       display: flex;
       justify-content: center;
       margin-top: 100px;
@@ -411,6 +411,7 @@ align: center;
       }
 
     }
+
 
 
 
