@@ -115,13 +115,13 @@ margin-top: 50px;
   }
 }
 .shop-sections-container {
-      display: inline-block;
-      width: auto;
+      display: flex;
+      justify-content: center;
       top-margin: 100px;
+      gap: 10px;
 }
-.shop-sections ul {
-  display: flex;
-  gap: 10px; /* spacing between buttons */
+.shop-sections  ul li a {
+  display: block;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -137,6 +137,7 @@ align: center;
       height: 300px;
       background-position: center;
       background-size: contain;
+      background-repeat: no-repeat;
 }
 .shop-click1 {
       background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);
@@ -410,6 +411,7 @@ align: center;
       }
 
     }
+
 
 
 
