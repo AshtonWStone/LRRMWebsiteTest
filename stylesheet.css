@@ -135,13 +135,13 @@ align: center;
   text-decoration: none;
 }
 .shop-click1 {
-      background-image:url(/LRRMWebsiteTest/Photos/ ;
+      background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);
 }
 .shop-click2 {
-      background-image:url(/LRRMWebsiteTest/Photos/ ;
+      background-image:url(/LRRMWebsiteTest/Photos/Books.jpg);
 }
 .shop-click3 {
-      background-image:url(/LRRMWebsiteTest/Photos/ ;
+      background-image:url(/LRRMWebsiteTest/Photos/Maps.jpg);
 }
 .shop-click4 {
       background-image:url(/LRRMWebsiteTest/Photos/ ;
@@ -150,10 +150,10 @@ align: center;
       background-image:url(/LRRMWebsiteTest/Photos/ ;
 }
 .shop-click6 {
-      background-image:url(/LRRMWebsiteTest/Photos/ ;
+      background-image:url(/LRRMWebsiteTest/Photos/Christmas.jpg);
 }
 .shop-click7 {
-      background-image:url(/LRRMWebsiteTest/Photos/ ;
+      background-image:url(/LRRMWebsiteTest/Photos/model train.jpg);
 }
 .shop-click8 {
       background-image:url(/LRRMWebsiteTest/Photos/ ;
@@ -405,6 +405,7 @@ align: center;
       }
 
     }
+
 
 
 
