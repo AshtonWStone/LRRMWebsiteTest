@@ -133,9 +133,13 @@ align: center;
   color: white;
   border-radius: 6px;
   text-decoration: none;
+      width: 25px;
+      height: 25px;
+      background-size: contain;
 }
 .shop-click1 {
       background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);
+      
 }
 .shop-click2 {
       background-image:url(/LRRMWebsiteTest/Photos/Books.jpg);
@@ -405,6 +409,7 @@ align: center;
       }
 
     }
+
 
 
 
