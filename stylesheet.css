@@ -114,7 +114,19 @@ margin-top: 50px;
     margin: 0 auto;
   }
 }
-
+.shop-sections-container {
+      display: inline-block;
+      margin: 0;
+}
+.shop-sections {
+      background: green;
+      position: sticky;
+      top: 50;
+      left: 10;
+      z-index: 100;
+      overflow-x: auto;
+      text-align: center;
+}
 
     nav {
       background: #334425;
@@ -363,6 +375,7 @@ margin-top: 50px;
       }
 
     }
+
 
 
 
