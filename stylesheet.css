@@ -128,6 +128,10 @@ margin-top: 50px;
       overflow-x: auto;
       text-align: center;
 }
+.shop-click1 {
+      border-style: dotted;
+      border-weight: 2px;
+}
 
     nav {
       background: #334425;
@@ -376,6 +380,7 @@ margin-top: 50px;
       }
 
     }
+
 
 
 
