@@ -120,70 +120,7 @@ margin-top: 50px;
       width: 50%;
 }
 
-.shop-click1 {
-display: inline-block;
-  padding: 10px 16px;
-  background: #005bbb;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.shop-click2 {
-display: inline-block;
-  padding: 10px 16px;
-  background: #005bbb;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.shop-click3 {
-display: inline-block;
-  padding: 10px 16px;
-  background: #005bbb;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.shop-click4 {
-display: inline-block;
-  padding: 10px 16px;
-  background: #005bbb;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.shop-click5 {
-display: inline-block;
-  padding: 10px 16px;
-  background: #005bbb;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.shop-click6 {
-display: inline-block;
-  padding: 10px 16px;
-  background: #005bbb;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.shop-click7 {
-display: inline-block;
-  padding: 10px 16px;
-  background: #005bbb;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-.shop-click8 {
+.shop-click {
 display: inline-block;
   padding: 10px 16px;
   background: #005bbb;
@@ -441,6 +378,7 @@ display: inline-block;
       }
 
     }
+
 
 
 
