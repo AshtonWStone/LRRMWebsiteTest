@@ -133,9 +133,9 @@ align: center;
   color: white;
   border-radius: 6px;
   text-decoration: none;
-            width: 25px;
-      height: 100px;
-
+            width: 325px;
+      height: 300px;
+      background-position: center;
       background-size: contain;
 }
 .shop-click1 {
@@ -410,6 +410,7 @@ align: center;
       }
 
     }
+
 
 
 
