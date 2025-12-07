@@ -113,18 +113,20 @@ margin-top: 50px;
     width: 80%;
     margin: 0 auto;
   }
-.shop-sections-container ul {
-      display: flex;
-      justify-content: center;
-      margin-top: 100px;
-      gap: 10px;
-}
-.shop-sections  ul li a {
+.shop-sections ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
   list-style: none;
+}
+
+.shop-sections  ul li a {
+  display: block; /* Changed from flex to block */
   padding: 0;
   margin: 0;
-align: center;
+  text-align: center; /* Fixed invalid align: center */
 }
 
 .shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
@@ -132,12 +134,14 @@ align: center;
   color: white;
   border-radius: 6px;
   text-decoration: none;
-            width: 125px;
-      height: 125px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
+  width: 80px;  /* Increased from 25px */
+  height: 80px; /* Increased from 25px */
+  background-position: center;
+  background-size: cover; /* Changed from contain */
+  background-repeat: no-repeat;
+  display: inline-block;
 }
+
 .shop-click1 {
       background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);
       
@@ -410,6 +414,7 @@ align: center;
       }
 
     }
+
 
 
 
