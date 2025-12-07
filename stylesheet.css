@@ -116,12 +116,11 @@ margin-top: 50px;
 }
 .shop-sections-container {
       display: inline-block;
-      left-margin: 75px;
       width: auto;
 }
 
 .shop-click {
-display: inline;
+display: flex;
   padding: 10px 16px;
   background: red;
   color: white;
@@ -378,6 +377,7 @@ display: inline;
       }
 
     }
+
 
 
 
