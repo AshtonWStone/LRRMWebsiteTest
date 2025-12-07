@@ -121,7 +121,7 @@ margin-top: 50px;
       gap: 10px;
 }
 .shop-sections  ul li a {
-  display: block;
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -411,6 +411,7 @@ align: center;
       }
 
     }
+
 
 
 
