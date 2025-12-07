@@ -128,11 +128,13 @@ margin-top: 50px;
 }
 
 .shop-click {
-  background: pink;
+  padding: 10px 16px;
+  background: yellow;
   color: white;
-  text-decoration: none;
   border-radius: 6px;
-  transition: background 0.2s;
+  text-decoration: none;
+}
+
 }
 
 
@@ -383,6 +385,7 @@ margin-top: 50px;
       }
 
     }
+
 
 
 
