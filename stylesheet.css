@@ -128,19 +128,35 @@ align: center;
 
 }
 
-.shop-click1 , .shop-click3 , .shop-click5 , shop-click7 {
+.shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
   padding: 10px 16px;
-  background: blue;
   color: white;
   border-radius: 6px;
   text-decoration: none;
 }
-.shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
-  padding: 10px 16px;
-  background: red;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
+.shop-click1 {
+      background-image: <img  ;
+}
+.shop-click2 {
+      background-image: ;
+}
+.shop-click3 {
+      background-image: ;
+}
+.shop-click4 {
+      background-image: ;
+}
+.shop-click5 {
+      background-image: ;
+}
+.shop-click6 {
+      background-image: ;
+}
+.shop-click7 {
+      background-image: ;
+}
+.shop-click8 {
+      background-image: ;
 }
       nav {
       background: #334425;
@@ -389,6 +405,7 @@ align: center;
       }
 
     }
+
 
 
 
