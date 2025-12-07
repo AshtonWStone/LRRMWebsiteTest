@@ -127,6 +127,17 @@ margin-top: 50px;
   margin: 0;
 align: center;
 }
+.shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
+  padding: 10px 16px;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+            width: 25px;
+      height: 25px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+}
       nav {
       background: #334425;
       position: sticky;
@@ -376,6 +387,7 @@ align: center;
     }
 
  
+
 
 
 
