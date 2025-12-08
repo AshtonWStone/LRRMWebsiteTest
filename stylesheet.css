@@ -127,16 +127,21 @@ margin-top: 50px;
   margin: 0;
   list-style-type: none;
 }
-      .shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
+.shop-click1, .shop-click2, .shop-click3, .shop-click4,
+.shop-click5, .shop-click6, .shop-click7, .shop-click8 {
+  width: 300px;          /* sets the width of the button */
+  height: 300px;         /* sets the height of the button */
   padding: 10px 16px;
-  border-color: red;
+  border: 1px solid red;
   border-radius: 6px;
   text-decoration: none;
-            background-size: 100px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-            color: green;
+  color: green;
+
+  background-position: center;
+  background-size: cover; /* or 'contain' if you want the whole image to fit */
+  background-repeat: no-repeat;
+}
+
 }
 .shop-click1 {
       background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);    
@@ -411,6 +416,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
