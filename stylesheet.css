@@ -141,8 +141,9 @@ margin-top: 50px;
   color: white;               /* text color */
   font-weight: bold;
   font-size: 20px;
-  border: 1px solid red;
+  border: 1px solid blue;
   border-radius: 6px;
+}
 .shop-click1, .shop-click2, .shop-click3, .shop-click4,
 .shop-click5, .shop-click6, .shop-click7, .shop-click8 {
   width: 500px;          /* sets the width of the button */
@@ -430,6 +431,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
