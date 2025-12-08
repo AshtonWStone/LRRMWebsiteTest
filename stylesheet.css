@@ -130,6 +130,7 @@ margin-top: 50px;
   flex-wrap: wrap;      /* allow buttons to wrap if needed */
   gap: 10px;
       align-items: center;/* spacing between buttons */
+      justify-content: center;
 }
 .shop-click1, .shop-click2, .shop-click3, .shop-click4,
 .shop-click5, .shop-click6, .shop-click7, .shop-click8 {
@@ -418,6 +419,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
