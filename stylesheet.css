@@ -115,28 +115,29 @@ margin-top: 50px;
   }
 }
 .shop-sections-container {
-      display: flex;
-      justify-content: center;
-      margin-top: 100px;
-      gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 10px;
 }
+
 .shop-sections ul {
   display: flex;
   padding: 0;
   margin: 0;
-align: center;
   list-style-type: none;
+  /* Remove gap: 10px; from here if you want the gap to apply to the container instead */
 }
-.shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
-  padding: 10px 16px;
-  border-color: red;
-  border-radius: 6px;
-  text-decoration: none;
-            width: 25px;
-      height: 25px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
+
+/* Remove the li selector from this rule */
+/* .shop-sections ul, li { ... } */ /* This was the problem */
+
+/* Or if you want to keep targeting li, do it separately */
+.shop-sections li {
+  display: flex; /* Keep this if you want li to be flex items */
+  padding: 0;
+  margin: 0;
+  list-style-type: none; /* This should already be inherited from ul, but it's safe to keep */
 }
 .shop-click1 {
       background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);    
@@ -411,6 +412,7 @@ align: center;
     }
 
  
+
 
 
 
