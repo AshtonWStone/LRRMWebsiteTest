@@ -138,6 +138,7 @@ margin-top: 50px;
   padding: 0;
   margin: 0;
   list-style-type: none; /* This should already be inherited from ul, but it's safe to keep */
+}
       .shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
   padding: 10px 16px;
   border-color: red;
@@ -148,7 +149,6 @@ margin-top: 50px;
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
-}
 }
 .shop-click1 {
       background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);    
@@ -423,6 +423,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
