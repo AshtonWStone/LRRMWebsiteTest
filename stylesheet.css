@@ -133,9 +133,9 @@ margin-top: 50px;
   width: 500px;          /* sets the width of the button */
   height: 500px;         /* sets the height of the button */
   padding: 10px 16px;
-  border: 4px solid red;
   text-decoration: none;
-  color: green;
+  color: black;
+      gap: 10px;
 
   background-position: center;
   background-size: cover; /* or 'contain' if you want the whole image to fit */
@@ -416,6 +416,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
