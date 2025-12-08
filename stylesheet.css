@@ -144,8 +144,8 @@ margin-top: 50px;
   border-color: red;
   border-radius: 6px;
   text-decoration: none;
-            width: 25px;
-      height: 25px;
+            width: 100px;
+      height: 100px;
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -423,6 +423,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
