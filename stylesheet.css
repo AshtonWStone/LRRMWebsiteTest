@@ -168,46 +168,7 @@ margin-top: 50px;
 .shop-click7 { background-image: url(/LRRMWebsiteTest/Photos/model_train.jpeg); }
 .shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
 
-.shop-click1 {
-      background-image:url(/LRRMWebsiteTest/Photos/shirts.jpg);
-      width: 700px;
-      height: 700px;
-}
-.shop-click2 {
-      background-image:url(/LRRMWebsiteTest/Photos/Books.jpg);
-            width: 200px;
-      height: 200px;
-}
-.shop-click3 {
-      background-image:url(/LRRMWebsiteTest/Photos/Maps.jpg);
-            width: 240px;
-      height: 240px;
-}
-.shop-click4 {
-      background-image:url(/LRRMWebsiteTest/Photos/Hats.png);
-            width: 300px;
-      height: 300px;
-}
-.shop-click5 {
-      background-image:url(/LRRMWebsiteTest/Photos/Toy.png);
-            width: 340px;
-      height: 340px;
-}
-.shop-click6 {
-      background-image:url(/LRRMWebsiteTest/Photos/Christmas.jpg);
-            width: 400px;
-      height: 400px;
-}
-.shop-click7 {
-      background-image:url(/LRRMWebsiteTest/Photos/model_train.jpeg);
-            width: 450px;
-      height: 450px;
-}
-.shop-click8 {
-      background-image:url(/LRRMWebsiteTest/Photos/small_brick.png);
-            width: 10px;
-      height: 10px;
-}
+
       nav {
       background: #334425;
       position: sticky;
@@ -457,6 +418,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
