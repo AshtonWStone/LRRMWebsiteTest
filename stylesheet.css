@@ -119,30 +119,16 @@ margin-top: 50px;
   justify-content: center;
   margin-top: 100px;
   gap: 10px;
-  width: 100%; /* allow container to take full width */
+  width: 100%;          /* allow container to take full page width */
 }
-
 
 .shop-sections ul {
   display: flex;
-  flex-wrap: wrap;       /* wrap buttons to next line if needed */
   padding: 0;
   margin: 0;
-  list-style: none;
-  gap: 10px;             /* spacing between buttons */
-}
-.shop-sections ul li a {
-  display: flex;              /* enables flex centering */
-  align-items: center;        /* vertical center */
-  justify-content: center;    /* horizontal center */
-  width: 300px;               /* all buttons same size */
-  height: 300px;
-  text-decoration: none;
-  color: white;               /* text color */
-  font-weight: bold;
-  font-size: 20px;
-  border: 1px solid blue;
-  border-radius: 6px;
+  list-style-type: none;
+  flex-wrap: wrap;      /* allow buttons to wrap if needed */
+  gap: 10px;            /* spacing between buttons */
 }
 .shop-click1, .shop-click2, .shop-click3, .shop-click4,
 .shop-click5, .shop-click6, .shop-click7, .shop-click8 {
@@ -155,7 +141,7 @@ margin-top: 50px;
   background-position: center;
   background-size: cover; /* or 'contain' if you want the whole image to fit */
   background-repeat: no-repeat;
-}
+      border: 1px solid blue;
 
 }
 .shop-click1 {
@@ -431,6 +417,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
