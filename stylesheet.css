@@ -142,8 +142,8 @@ margin-top: 50px;
   text-align: center;         /* center multi-line text */
   flex-direction: column;     /* stack multiple words vertically */
   
-  width: 400px;               /* uniform width */
-  height: 400px;              /* uniform height */
+  width: 200px;               /* uniform width */
+  height: 200px;              /* uniform height */
   
   padding: 10px;
   color: black;
@@ -418,6 +418,7 @@ margin-top: 50px;
     }
 
  
+
 
 
 
