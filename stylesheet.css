@@ -36,7 +36,7 @@
     }
 
 
-    header::before {
+    header::after {
       content: '';
       position: absolute;
       top: 0;
@@ -435,6 +435,7 @@ color: white;
     }
 
  
+
 
 
 
