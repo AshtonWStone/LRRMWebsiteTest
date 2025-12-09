@@ -1,7 +1,12 @@
-@media screen and (max-width: 600px) {
-  nav  {
-    float: none;
-    width: 100%;
+@media (max-width: 600px) {
+  nav ul {
+    flex-wrap: nowrap;       /* forces one single line */
+    overflow-x: auto;        /* allows sideways scroll instead of stacking */
+    white-space: nowrap;     /* prevents items from breaking to new lines */
+  }
+
+  nav li {
+    flex: 0 0 auto;          /* prevents shrinking that causes wrapping */
   }
 }
 
@@ -447,6 +452,7 @@ color: white;
     }
 
  
+
 
 
 
