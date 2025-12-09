@@ -114,6 +114,9 @@ margin-top: 50px;
     margin: 0 auto;
   }
 }
+.shop-body {
+      background-color: #FFFDD0;
+}
 .shop-sections-container {
   display: flex;
   justify-content: center;
@@ -418,6 +421,7 @@ color: white;
     }
 
  
+
 
 
 
