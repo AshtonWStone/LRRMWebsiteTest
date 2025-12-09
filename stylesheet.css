@@ -11,6 +11,7 @@
     }
 
     header {
+      background-color: rgba(0,0,0,0.6);
       background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4nom9QD2dXAyEfgAlWQxr3-Z_XacK6tn1wBqmgEhG_JKkWqSb0aDDo82mk5v670uvE4uK0PQDG-Oi7jPug7MyxiYoTVCFcBqa8J2jsC10YZKeo0c6p2kLAJapAIsjOOSr85BE7s=s680-w680-h510-rw');
       background-size: cover;
       background-position: center;
@@ -435,6 +436,7 @@ color: white;
     }
 
  
+
 
 
 
