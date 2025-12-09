@@ -202,6 +202,8 @@ color: white;
     .nav-container {
       display: inline-block;
       margin: 0 auto;
+          padding-top: 0;
+          
       width: 100%;
     }
      nav ul {
@@ -437,6 +439,7 @@ color: white;
     }
 
  
+
 
 
 
