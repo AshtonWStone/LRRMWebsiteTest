@@ -161,7 +161,7 @@ margin-top: 50px;
   margin: 0;
   list-style-type: none;
   flex-wrap: wrap;      /* allow buttons to wrap */
-  gap: 30px;
+  gap: 50px;
   justify-content: center;
 }
 
@@ -452,6 +452,7 @@ color: white;
     }
 
  
+
 
 
 
