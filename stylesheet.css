@@ -128,9 +128,17 @@ margin-top: 50px;
   }
 }
 #shop-body {
-      background-color: #FFFDD0;
+      background-color: #DBCECB;
 }
 .shop-sections-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap; /* allow wrapping if needed */
+}
+.shop-sections-container2 {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -434,6 +442,7 @@ color: white;
     }
 
  
+
 
 
 
