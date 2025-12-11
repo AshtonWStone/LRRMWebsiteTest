@@ -1,4 +1,48 @@
+/* make only the li with submenu a positioned element */
+nav li.has-submenu {
+  position: relative;
+}
 
+/* submenu hidden */
+nav li .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  /* override your nav flexbox */
+  flex-direction: column;
+  display: none;
+  background: #334425;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  min-width: 180px;
+  border: 1px solid rgba(244,241,233,0.3);
+  z-index: 9999;
+}
+
+/* force dropdown items NOT to use your main nav styling */
+nav li .submenu li {
+  display: block !important;
+}
+
+nav li .submenu li a {
+  display: block;
+  padding: 0.7rem 1rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* show on hover */
+nav li.has-submenu:hover .submenu {
+  display: block;
+}
+
+/* hover color */
+nav li .submenu li a:hover {
+  background: rgba(0,0,0,0.2);
+}
 * {
       margin: 0;
       padding: 0;
@@ -434,5 +478,6 @@ color: white;
       }
 
     }
+
 
 
