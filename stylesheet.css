@@ -240,8 +240,6 @@ color: white;
 .subnav-content a:hover {
   background-color: grey;
   color: white;
-                  justify-content: center;
-            align-items: center;
 }
 
 .subnav:hover .subnav-content {
@@ -434,6 +432,7 @@ color: white;
       }
 
     }
+
 
 
 
