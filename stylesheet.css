@@ -1,48 +1,78 @@
-/* make only the li with submenu a positioned element */
+/* ensure parent is a positioned anchor for absolute submenu */
 nav li.has-submenu {
   position: relative;
 }
 
-/* submenu hidden */
-nav li .submenu {
-  display: none;
+/* submenu: removed from layout, hidden, and non-interactive by default */
+nav li.has-submenu > .submenu {
   position: absolute;
   top: 100%;
   left: 0;
-
-  /* override your nav flexbox */
-  flex-direction: column;
-  display: none;
-  background: #334425;
-  padding: 0;
+  min-width: 200px;
   margin: 0;
+  padding: 0;
   list-style: none;
-  min-width: 180px;
-  border: 1px solid rgba(244,241,233,0.3);
+
+  /* Hidden state (guaranteed) */
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transform: translateY(-6px);
+  pointer-events: none;
+  transition: visibility 0s linear 0.15s, opacity 0.15s ease, transform 0.15s ease;
+
+  background: #334425;
+  border: 1px solid rgba(244,241,233,0.15);
   z-index: 9999;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column; /* ensure vertical stacking */
 }
 
-/* force dropdown items NOT to use your main nav styling */
-nav li .submenu li {
+/* dropdown items reset (override nav flex) */
+nav li.has-submenu > .submenu > li {
   display: block !important;
 }
 
-nav li .submenu li a {
+/* links inside submenu */
+nav li.has-submenu > .submenu > li > a {
   display: block;
   padding: 0.7rem 1rem;
-  text-align: left;
   white-space: nowrap;
+  text-align: left;
 }
 
-/* show on hover */
-nav li.has-submenu:hover .submenu {
-  display: block;
+/* SHOW only on hover of the parent li — nothing else triggers it */
+nav li.has-submenu:hover > .submenu,
+nav li.has-submenu:focus-within > .submenu {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition-delay: 0s;
 }
 
-/* hover color */
-nav li .submenu li a:hover {
-  background: rgba(0,0,0,0.2);
+/* hover look for submenu items */
+nav li.has-submenu > .submenu > li > a:hover {
+  background: rgba(0,0,0,0.12);
 }
+
+/* small-screen fallback: keep it hidden unless explicitly opened (you can add JS later) */
+@media (max-width: 700px) {
+  nav li.has-submenu > .submenu {
+    position: static;
+    transform: none;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: none;
+  }
+  nav li.has-submenu.open > .submenu { /* if you later add a .open via JS on tap */
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
 * {
       margin: 0;
       padding: 0;
@@ -478,6 +508,7 @@ color: white;
       }
 
     }
+
 
 
 
