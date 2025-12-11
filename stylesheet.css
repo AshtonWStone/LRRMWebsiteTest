@@ -22,6 +22,19 @@
       position: relative;
       width: 100%;
     }
+   #shop-header {
+      background-image: url('https://lh3.googleusercontent.com/gps-cs-s/AC9h4nom9QD2dXAyEfgAlWQxr3-Z_XacK6tn1wBqmgEhG_JKkWqSb0aDDo82mk5v670uvE4uK0PQDG-Oi7jPug7MyxiYoTVCFcBqa8J2jsC10YZKeo0c6p2kLAJapAIsjOOSr85BE7s=s680-w680-h510-rw');
+      background-size: cover;
+      background-position: center;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      width: 100%;
+    }
+
 
     header::before {
       content: '';
@@ -114,53 +127,65 @@ margin-top: 50px;
     margin: 0 auto;
   }
 }
-.shop-sections-container {
-      display: flex;
-      justify-content: center;
-      margin-top: 100px;
-      gap: 10px;
+#shop-body {
+      background-color: #E8F1A9;
 }
-.shop-sections-container li, ul {
+.shop-sections-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap; /* allow wrapping if needed */
+}
+
+
+.shop-sections ul {
   display: flex;
   padding: 0;
   margin: 0;
   list-style-type: none;
+  flex-wrap: wrap;      /* allow buttons to wrap */
+  gap: 30px;
+  justify-content: center;
 }
-.shop-click1 , .shop-click3 , .shop-click5 , .shop-click7, .shop-click2 , .shop-click4 , .shop-click6 , .shop-click8 {
-  padding: 10px 16px;
-  border-color: red;
-  border-radius: 6px;
+
+/* Common styles for all buttons */
+.shop-click1, .shop-click2, .shop-click3, .shop-click4,
+.shop-click5, .shop-click6, .shop-click7, .shop-click8 {
+  display: flex;
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+  text-align: center;         /* center multi-line text */
+  flex-direction: column;     /* stack multiple words vertically */
+  
+  width: 200px;               /* uniform width */
+  height: 200px;              /* uniform height */
+  
+  padding: 10px;
+color: white;
   text-decoration: none;
-            width: 25px;
-      height: 25px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
+  border: 1px solid green;
+  
+  background-size: contain;   /* scale background proportionally */
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  font-size: 20px;            /* adjust text size */
+  font-weight: bold;
 }
-.shop-click1 {
-      background-image:url(/Photos/shirts.jpg);    
-}
-.shop-click2 {
-      background-image:url(/Photos/Books.jpg);
-}
-.shop-click3 {
-      background-image:url(/Photos/Maps.jpg);
-}
-.shop-click4 {
-      background-image:url(/Photos/Hats.png);
-}
-.shop-click5 {
-      background-image:url(/Photos/Toy.png);
-}
-.shop-click6 {
-      background-image:url(/Photos/Christmas.jpg);
-}
-.shop-click7 {
-      background-image:url(/Photos/model train.jpg);
-}
-.shop-click8 {
-      background-image:url(/Photos/small_brick.png);
-}
+
+/* Individual background images */
+.shop-click1 { background-image: url(/LRRMWebsiteTest/Photos/Shirts.png); }
+.shop-click2 { background-image: url(/LRRMWebsiteTest/Photos/Books.png); }
+.shop-click3 { background-image: url(/LRRMWebsiteTest/Photos/Maps.png); }
+.shop-click4 { background-image: url(/LRRMWebsiteTest/Photos/Hats.png); }
+.shop-click5 { background-image: url(/LRRMWebsiteTest/Photos/Toy.png); }
+.shop-click6 { background-image: url(/LRRMWebsiteTest/Photos/Christmas.png); }
+.shop-click7 { background-image: url(/LRRMWebsiteTest/Photos/model_train.png); }
+.shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
+
+
       nav {
       background: #334425;
       position: sticky;
@@ -408,6 +433,7 @@ margin-top: 50px;
       }
 
     }
+
 
 
 
