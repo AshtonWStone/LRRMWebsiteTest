@@ -188,63 +188,65 @@ color: white;
 .shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
 
 
-      .nav_container {
-  overflow: hidden;
-  background-color: #333; 
-}
+  nav {
+      background: #334425;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
 
-.nav_container {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    .nav-container {
+      display: inline-block;
+      margin: 0 auto;
+      width: 100%;
+    }
+     nav ul {
+      display: inline-flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
 
-.subnav {
-  float: left;
-  overflow: hidden;
-}
+    nav li {
+      position: relative;
+      flex-shrink: 0;
+    }
 
-.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
+    nav li:not(:first-child)::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.5rem;
+      bottom: 0.5rem;
+      width: 0.25px;
+      background-color: rgba(244, 241, 233, 0.3);
+    }
 
-.nav_container a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
-}
+    nav a {
+      color: #F4F1E9;
+      text-decoration: none;
+      padding: 1rem 1.25rem;
+      display: inline-block;
+      font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+      transition: all 0.3s;
+      -webkit-text-stroke: 0.25px rgb(200, 195, 142);
+      text-stroke: 0.25px rgb(200, 195, 142);
+      white-space: nowrap;
+    }
 
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: red;
-  width: 100%;
-  z-index: 1;
-}
+    nav a:hover {
+      background-color: rgba(0,0,0,0.1);
+    }
 
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
-}
     .about-section {
       display: flex;
       flex-wrap: wrap;
@@ -435,6 +437,7 @@ color: white;
     }
 
  
+
 
 
 
