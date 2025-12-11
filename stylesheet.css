@@ -185,34 +185,20 @@ color: white;
 .shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
 
 
-      .navbar {
-  overflow: hidden;
-  background-color: #334425; 
+.navbar {
+  overflow: visible; /* allow dropdown to show outside navbar */
+  background-color: red; 
+  display: flex;
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
+.navbar a, .subnavbtn {
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 16px;  
-  color: white;
   padding: 14px 16px;
+  display: block;
+  font-size: 16px;
   background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  text-decoration: none;  /* make sure it looks like a button, not a link */
-  display: inline-block;  /* needed to size it like a button */
+  border: none;
   cursor: pointer;
 }
 
@@ -220,28 +206,27 @@ color: white;
   background-color: grey;
 }
 
+.subnav {
+  position: relative; /* needed for dropdown to align to this tab */
+}
+
 .subnav-content {
   display: none;
   position: absolute;
-  top: 100%;           /* positions dropdown below the tab */
-  left: 0;             /* aligns with the tab */
+  top: 100%;          /* dropdown appears below the navbar */
+  left: 0;
   background-color: #334425;
-  min-width: 160px;    /* sets a reasonable width */
+  min-width: 180px;   /* width of the dropdown */
   z-index: 1;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2); /* optional, nicer look */
 }
 
-
 .subnav-content a {
-  display: block;      /* stack links vertically */
-  color: white;
-  text-decoration: none;
   padding: 12px 16px;
+  color: white;
 }
 
 .subnav-content a:hover {
   background-color: grey;
-  color: white;
 }
 
 .subnav:hover .subnav-content {
@@ -435,6 +420,7 @@ color: white;
       }
 
     }
+
 
 
 
