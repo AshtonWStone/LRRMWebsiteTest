@@ -206,8 +206,6 @@ color: white;
 .subnav {
   overflow: hidden;
        display: flex;
-            justify-content: center;
-            align-items: center;
       gap: 10px;
 }
 
@@ -242,6 +240,8 @@ color: white;
 .subnav-content a:hover {
   background-color: grey;
   color: white;
+                  justify-content: center;
+            align-items: center;
 }
 
 .subnav:hover .subnav-content {
@@ -434,6 +434,7 @@ color: white;
       }
 
     }
+
 
 
 
