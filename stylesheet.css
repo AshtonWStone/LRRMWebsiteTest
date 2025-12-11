@@ -22,7 +22,7 @@
       position: relative;
       width: 100%;
     }
-   #shop-header {
+   #shopheader {
       background-size: cover;
       background-position: center;
       height: 50px;
@@ -187,7 +187,7 @@ color: white;
 
 /* Center the navbar */
 .navbar {
-  background-color: red;
+  background-color: #334425;
   text-align: center;
   padding: 0;
   margin: 0 auto;
@@ -462,6 +462,7 @@ color: white;
       }
 
     }
+
 
 
 
