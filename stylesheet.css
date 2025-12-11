@@ -187,7 +187,7 @@ color: white;
 
 .navbar {
   overflow: visible; /* allow dropdown to show outside navbar */
-  background-color: red; 
+  background-color: #334425; 
   display: flex;
 }
 
@@ -230,7 +230,7 @@ color: white;
 }
 
 .subnav:hover .subnav-content {
-  display: block;
+  display: flex;
 }
     .about-section {
       display: flex;
@@ -420,6 +420,7 @@ color: white;
       }
 
     }
+
 
 
 
