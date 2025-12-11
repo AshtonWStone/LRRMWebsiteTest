@@ -185,24 +185,19 @@ color: white;
 .shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
 
 
+/* Center the navbar */
 .navbar {
-  overflow: hidden;
   background-color: #334425;
-  position: relative;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   padding: 0;
   margin: 0 auto;
   width: 100%;
+  display: block; /* Change from flex to block for better centering */
 }
 
 .navbar > a,
 .subnav {
   display: inline-block;
-  float: none;
-  vertical-align: top;
 }
 
 .navbar a {
@@ -211,12 +206,10 @@ color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  display: inline-block;
 }
 
 .subnav {
   position: relative;
-  display: inline-block;
 }
 
 .subnav .subnavbtn {
@@ -238,7 +231,7 @@ color: white;
   background-color: grey;
 }
 
-
+/* SUBNAV IN SINGLE HORIZONTAL ROW */
 .subnav-content {
   display: none;
   position: absolute;
@@ -246,24 +239,24 @@ color: white;
   left: 0;
   top: 100%;
   z-index: 1;
-  box-sizing: border-box;
-  padding: 0;
-  min-width: 200px;
-  text-align: left;
-  white-space: nowrap; /* Prevents text wrapping */
+  padding: 8px 0;
+  white-space: nowrap; /* Prevents wrapping to next line */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-/* FIXED: Each link stays on one line */
+/* Each subnav item in the horizontal row */
 .subnav-content a {
   color: white;
   text-decoration: none;
-  padding: 12px 16px;
-  display: block; /* Stack vertically */
-  text-align: left;
-  width: 100%;
-  box-sizing: border-box;
-  white-space: nowrap; /* Prevents text from wrapping to next line */
+  padding: 8px 16px;
+  display: inline-block; /* Horizontal layout */
+  text-align: center;
+  white-space: nowrap; /* Text stays on one line */
+  border-right: 1px solid rgba(255,255,255,0.1); /* Optional separator */
+}
+
+.subnav-content a:last-child {
+  border-right: none; /* Remove border from last item */
 }
 
 .subnav-content a:hover {
@@ -273,30 +266,12 @@ color: white;
 
 /* Show subnav on hover */
 .subnav:hover .subnav-content {
-  display: block; /* Changed from flex to block */
+  display: block;
 }
 
 /* Keep subnav open when hovering over it */
 .subnav-content:hover {
   display: block;
-}
-
-/* For the shop with many items - makes it wider if needed */
-.subnav-content.wide {
-  min-width: 250px;
-}
-
-/* Center the entire navbar if needed */
-.navbar-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.navbar::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
     .about-section {
@@ -487,6 +462,7 @@ color: white;
       }
 
     }
+
 
 
 
