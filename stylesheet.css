@@ -206,6 +206,9 @@ color: white;
 
 .subnav {
   overflow: hidden;
+       display: flex;
+            justify-content: center;
+      gap: 10px;
 }
 
 .subnav .subnavbtn {
@@ -224,7 +227,6 @@ color: white;
 }
 
 .subnav-content {
-  display: none;
   position: absolute;
   left: 0;
   background-color: #334425;
@@ -233,7 +235,6 @@ color: white;
 }
 
 .subnav-content a {
-  float: left;
   color: white;
   text-decoration: none;
 }
@@ -244,7 +245,6 @@ color: white;
 }
 
 .subnav:hover .subnav-content {
-  display: block;
 }
     .about-section {
       display: flex;
@@ -434,6 +434,7 @@ color: white;
       }
 
     }
+
 
 
 
