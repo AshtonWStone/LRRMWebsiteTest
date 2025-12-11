@@ -218,7 +218,7 @@ color: white;
   margin: 0;
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
+.nav_container a:hover, .subnav:hover .subnavbtn {
   background-color: red;
 }
 
@@ -435,6 +435,7 @@ color: white;
     }
 
  
+
 
 
 
