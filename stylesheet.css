@@ -186,52 +186,105 @@ color: white;
 
 
 .navbar {
-  overflow: visible; /* allow dropdown to show outside navbar */
-  background-color: #334425; 
-  display: flex;
+  overflow: hidden;
+  background-color: #334425;
+  position: relative; /* Added for proper subnav positioning */
 }
 
-.navbar a, .subnavbtn {
-  color: white;
-  text-decoration: none;
-  padding: 14px 16px;
-  display: block;
+.navbar a {
+  float: left;
   font-size: 16px;
-  background-color: inherit;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
   border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
   cursor: pointer;
+  display: inline-block; /* Make it behave like a link */
+  text-decoration: none; /* Remove underline */
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: grey;
 }
 
-.subnav {
-  position: relative; /* needed for dropdown to align to this tab */
-}
-
 .subnav-content {
   display: none;
   position: absolute;
-  top: 100%;          /* dropdown appears below the navbar */
-  left: 0;
   background-color: #334425;
-  min-width: 180px;   /* width of the dropdown */
+  width: 100%;
+  left: 0;
+  top: 100%; /* Position directly below the navbar */
   z-index: 1;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+/* Alternative: If you want each subnav to be positioned under its parent */
+.subnav-content-alt {
+  display: none;
+  position: absolute;
+  background-color: #334425;
+  min-width: 200px;
+  top: 100%; /* Position below the parent button */
+  left: 0;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .subnav-content a {
-  padding: 12px 16px;
+  float: left;
   color: white;
+  text-decoration: none;
+  padding: 12px 16px;
+  width: auto;
+  text-align: left;
+}
+
+/* If you want a grid layout for subnav items (especially for Shop) */
+.subnav-content.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
 }
 
 .subnav-content a:hover {
   background-color: grey;
+  color: white;
 }
 
 .subnav:hover .subnav-content {
-  display: flex;
+  display: block;
 }
+
+/* Keep the subnav open when hovering over it */
+.subnav-content:hover {
+  display: block;
+}
+
+/* Clear floats after the navbar */
+.navbar:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
     .about-section {
       display: flex;
       flex-wrap: wrap;
@@ -420,6 +473,7 @@ color: white;
       }
 
     }
+
 
 
 
