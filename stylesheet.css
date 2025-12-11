@@ -188,12 +188,12 @@ color: white;
 .shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
 
 
-      .navbar {
+      .nav_container {
   overflow: hidden;
   background-color: #333; 
 }
 
-.navbar a {
+.nav_container {
   float: left;
   font-size: 16px;
   color: white;
@@ -435,6 +435,7 @@ color: white;
     }
 
  
+
 
 
 
