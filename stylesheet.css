@@ -189,10 +189,14 @@ color: white;
       .navbar {
   overflow: hidden;
   background-color: #334425; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            overflow: hidden;
 }
 
 .navbar a {
-  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -201,7 +205,6 @@ color: white;
 }
 
 .subnav {
-  float: left;
   overflow: hidden;
 }
 
@@ -431,6 +434,7 @@ color: white;
       }
 
     }
+
 
 
 
