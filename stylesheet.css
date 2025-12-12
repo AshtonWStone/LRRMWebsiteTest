@@ -6,8 +6,9 @@
 
     body {
       font-family: 'Open Sans', sans-serif;
-      background-color: #ffffff;
+      background-color: #fdf5e6;
       color: #333;
+          
     }
 
     .index-header {
@@ -631,6 +632,7 @@ color: white;
       }
 
     }
+
 
 
 
