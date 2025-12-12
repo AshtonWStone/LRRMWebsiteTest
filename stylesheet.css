@@ -551,11 +551,11 @@ color: white;
     }
 
     .divider-line:nth-child(1) {
-      left: 15%;
+      left: 33.333%;
     }
 
     .divider-line:nth-child(2) {
-      left: 15%;
+      left: 66.6666%;
     }
 
     main {
@@ -636,6 +636,7 @@ color: white;
       }
 
     }
+
 
 
 
