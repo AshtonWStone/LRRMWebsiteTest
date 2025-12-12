@@ -75,7 +75,6 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,3) 100%);
 }
 
 .header-middle {
-      z-index: 1;
   color: white;
   font-size: 10px;
   /* Centers within remaining space */
@@ -85,6 +84,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,3) 100%);
 }
 
 .header-middle h1 {
+        z-index: 1;
   margin: 0; /* REMOVES default h1 margins */
   font-size: 1em; /* Inherits 10px from parent */
 }
@@ -634,6 +634,7 @@ color: white;
       }
 
     }
+
 
 
 
