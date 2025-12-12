@@ -193,12 +193,16 @@ color: white;
 
 footer {
 background-color: #334425;
-      top: 100%;
+
 }
 
 .footer-container {
       background-color: #335525;
       color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
 }
 /* Center the navbar */
 .navbar {
@@ -477,6 +481,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
