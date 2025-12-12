@@ -22,28 +22,63 @@
       position: relative;
       width: 100%;
     }
-   #shopheader {
-      background-size: cover;
-      background-position: center;
-      height: 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      position: relative;
-      width: 100%;
-    }
+   }
+.site-header {
+  height: 50px;
+  font-family: Arial, sans-serif;
+  margin-bottom: auto;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: flex; /* Added for layout */
+  align-items: center; /* Added for vertical centering */
+  padding: 10px 20px; /* Added some padding */
+}
+.site-header::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,3) 100%);
+}
 
+.header-content {
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  display: flex; /* Added to align children side-by-side */
+  align-items: center; /* Vertically center logo and title */
+}
 
-    header::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%);
-    }
+.header-left {
+  margin-left: 0;
+  /* Stays on left - no change needed */
+}
+
+.logo {
+  width: 10px;
+  height: 10px;
+}
+
+.header-middle {
+  color: white;
+  font-size: 10px;
+  /* Centers within remaining space */
+  flex-grow: 1; /* Takes all available space */
+  text-align: center; /* Centers text horizontally */
+  padding-left: 20px; /* Space between logo and title */
+}
+
+.header-middle h1 {
+  margin: 0; /* REMOVES default h1 margins */
+  font-size: 1em; /* Inherits 10px from parent */
+}
+
 article{
   background-color: rgb(200, 195, 142);
 }
@@ -589,6 +624,7 @@ color: white;
       }
 
     }
+
 
 
 
