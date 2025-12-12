@@ -203,6 +203,8 @@ background-color: #334425;
       left: 0;
       bottom: 0;
       width: 100%;
+      display: flex;
+      flex-direction: row;
 }
 /* Center the navbar */
 .navbar {
@@ -481,6 +483,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
