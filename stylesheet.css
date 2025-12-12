@@ -188,6 +188,11 @@ color: white;
 footer {
 background-color: #334425;
 }
+
+.footer-container {
+      background-color: #335525;
+      color: white;
+}
 /* Center the navbar */
 .navbar {
   background-color: #334425;
@@ -465,6 +470,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
