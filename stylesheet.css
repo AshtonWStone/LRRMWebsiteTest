@@ -196,7 +196,7 @@ background-color: #334425;
 
 }
 
-.footer-container {
+.footer-container p {
       background-color: #335525;
       color: white;
       position: fixed;
@@ -483,6 +483,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
