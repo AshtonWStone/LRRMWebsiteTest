@@ -162,9 +162,10 @@ margin-top: 50px;
   height: 200px;              /* uniform height */
   
   padding: 10px;
+      margin-bottom: 10px;
 color: white;
   text-decoration: none;
-  border: 1px solid green;
+  border: 1px solid black;
   
   background-size: contain;   /* scale background proportionally */
   background-position: center;
@@ -184,7 +185,9 @@ color: white;
 .shop-click7 { background-image: url(/LRRMWebsiteTest/Photos/model_train.png); }
 .shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
 
-
+footer {
+background-color: #334425;
+}
 /* Center the navbar */
 .navbar {
   background-color: #334425;
@@ -462,6 +465,7 @@ color: white;
       }
 
     }
+
 
 
 
