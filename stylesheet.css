@@ -145,14 +145,14 @@ margin-top: 50px;
   margin: 0;
   list-style-type: none;
   flex-wrap: wrap;      /* allow buttons to wrap */
-  gap: 80px;
+  gap: 30px;
   justify-content: center;
 }
 
 /* Common styles for all buttons */
 .shop-click1, .shop-click2, .shop-click3, .shop-click4,
 .shop-click5, .shop-click6, .shop-click7, .shop-click8
-.shop-click10 , .shop-click11 , .shop-click9 , .shop-click12 {
+.shop-click9 , .shop-click10 , .shop-click11 , .shop-click12 {
   display: flex;
   align-items: center;        /* vertical centering */
   justify-content: center;    /* horizontal centering */
@@ -476,6 +476,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
