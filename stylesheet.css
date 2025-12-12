@@ -1,5 +1,7 @@
 .color-breakup {
 background-color: #fdf5e6;
+      width: 100%;
+      height: 25px;
 }
 
 * {
@@ -636,6 +638,7 @@ color: white;
       }
 
     }
+
 
 
 
