@@ -35,6 +35,7 @@
   display: flex; /* Added for layout */
   align-items: center; /* Added for vertical centering */
   padding: 10px 20px; /* Added some padding */
+      background-color: black;
 }
 .site-header::before {
 content: '';
@@ -56,7 +57,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,3) 100%);
 }
 
 .header-content {
-      z-index: 1;
+      z-index: 2;
   max-width: 100%;
   margin: 0 auto;
   width: 100%;
@@ -633,6 +634,7 @@ color: white;
       }
 
     }
+
 
 
 
