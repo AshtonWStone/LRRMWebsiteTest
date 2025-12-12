@@ -1,3 +1,7 @@
+.color-breakup {
+background-color: #fdf5e6;
+}
+
 * {
       margin: 0;
       padding: 0;
@@ -632,6 +636,7 @@ color: white;
       }
 
     }
+
 
 
 
