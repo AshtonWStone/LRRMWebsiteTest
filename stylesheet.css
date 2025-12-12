@@ -185,6 +185,11 @@ color: white;
 .shop-click6 { background-image: url(/LRRMWebsiteTest/Photos/Christmas.png); }
 .shop-click7 { background-image: url(/LRRMWebsiteTest/Photos/model_train.png); }
 .shop-click8 { background-image: url(/LRRMWebsiteTest/Photos/small_brick.png); }
+.shop-click9 { background-image: url(/LRRMWebsiteTest/Photos/model_train.png); }
+              .shop-click10 { background-image: url(/LRRMWebsiteTest/Photos/model_train.png); }
+                            .shop-click11 { background-image: url(/LRRMWebsiteTest/Photos/model_train.png); }
+ .shop-click12 { background-image: url(/LRRMWebsiteTest/Photos/model_train.png); }
+
 
 footer {
 background-color: #334425;
@@ -471,6 +476,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
