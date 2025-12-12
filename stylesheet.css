@@ -193,6 +193,7 @@ color: white;
 
 footer {
 background-color: #334425;
+      top: 100%;
 }
 
 .footer-container {
@@ -476,6 +477,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
