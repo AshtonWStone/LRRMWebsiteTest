@@ -152,7 +152,7 @@ margin-top: 50px;
 /* Common styles for all buttons */
 .shop-click1, .shop-click2, .shop-click3, .shop-click4,
 .shop-click5, .shop-click6, .shop-click7, .shop-click8
-.shop-click10 , .shop-click11 , .shop-click9 , .shop-click11 {
+.shop-click10 , .shop-click11 , .shop-click9 , .shop-click12 {
   display: flex;
   align-items: center;        /* vertical centering */
   justify-content: center;    /* horizontal centering */
@@ -471,6 +471,7 @@ background-color: #334425;
       }
 
     }
+
 
 
 
