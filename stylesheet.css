@@ -127,12 +127,15 @@ margin-top: 10px;
   width: 500px;
   height: 400px;
   object-fit: contain;
+   right: 0;
+      
 }
 .small_brick_text {
   font-size: 1.4em;
   line-height: 2.0;
 margin-left: 400px;
 margin-top: 50px;
+      left: 0;
 }
 .med_brick {
   display: flex;
@@ -635,6 +638,7 @@ color: white;
       }
 
     }
+
 
 
 
