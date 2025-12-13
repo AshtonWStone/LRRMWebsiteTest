@@ -122,7 +122,6 @@ margin-top: 10px;
 .small-brick-container, .large-brick-container {
       display: flex;
       align-items: center;
-      margin-right: 100px;
       margin-bottom: 50px;
       padding: 0px;
       width: 100%;
@@ -131,7 +130,6 @@ margin-top: 10px;
 .medium-brick-container {
       display: flex;
       align-items: center;
-      margin-left: 100px;
       margin-bottom: 50px;
       padding: 0px;
       width: 100%;
@@ -148,6 +146,13 @@ margin-top: 10px;
       flex: 1;
       width: 100%;
 }
+
+.small-brick-container > :first-child,
+.large-brick-container > :first-child,
+.medium-brick-container > :first-child {
+  margin-right: 50px;
+}
+
 
 .brick-text h2 {
       color: black;
@@ -642,6 +647,7 @@ color: white;
       }
 
     }
+
 
 
 
