@@ -123,6 +123,9 @@ display: flex;
 align-items: center;
 gap: 20px;
 }
+.small-brick-container, .medium-brick-container {
+      margin-bottom: 25px;
+}
 
 .medium-brick-container {
 display: flex;
@@ -136,7 +139,7 @@ width: 200px;
 height: auto;
 }
 .brick-text h2 {
-color: red;
+color: black;
 font-weight: bold;
 font-size: 32px;
 }
@@ -150,7 +153,7 @@ padding-left 0;
 }
 
 .brick-text li {
-color: blue;
+color: black;
 }
 
 .brick-img img {
@@ -628,6 +631,7 @@ color: white;
       }
 
     }
+
 
 
 
