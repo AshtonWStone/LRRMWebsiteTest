@@ -118,50 +118,87 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,3) 100%);
 margin-top: 10px;
       bottom: 20px;
 }
-.small-brick-container, .medium-brick-container, large-brick-container {
-      gap: 100px;
-}
-.small-brick-container, .large-brick-container {
-align-items: center;
-}
-.small-brick-container, .medium-brick-container {
-      margin-bottom: 50px;
-}
-
-.medium-brick-container {
-align-items: center;
-      margin-bottom: 50px;
+/* Base brick row styling */
+.brick-row {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* 50px between image and text */
+  margin-bottom: 50px; /* 50px padding between each row */
+  padding: 0;
+  width: 100%;
 }
 
+/* Reverse order for medium brick */
+.brick-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Image container */
 .brick-img {
-width: 400px;
-height: auto;
+  width: 400px;
+  height: auto;
+  flex-shrink: 0; /* Prevent image from shrinking */
 }
+
+/* Image itself */
+.brick-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text container */
+.brick-text {
+  flex: 1; /* Take remaining space */
+}
+
+/* Text styling */
 .brick-text h2 {
-color: black;
-font-weight: bold;
-font-size: 32px;
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .brick-text ul {
-padding-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
+  margin: 0;
 }
 
 .brick-text li {
-color: black;
+  color: black;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
-.brick-img img {
-width: 100%;
-height: auto;
-display: block;
-}
+/* Responsive design */
 @media (max-width: 768px) {
   .brick-row,
   .brick-row.reverse {
     flex-direction: column; /* stack on small screens */
     text-align: center;
+    gap: 30px;
   }
+  
+  .brick-img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .brick-text {
+    width: 100%;
+  }
+}
+
+/* Optional: Add specific container classes if needed for other styling */
+.small-brick-container,
+.medium-brick-container,
+.large-brick-container {
+  /* Additional specific styles if needed */
 }
 #shop-body {
       background-color: #E8F1A9;
@@ -626,6 +663,7 @@ color: white;
       }
 
     }
+
 
 
 
