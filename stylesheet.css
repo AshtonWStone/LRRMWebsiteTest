@@ -135,7 +135,6 @@ margin-top: 10px;
       margin-bottom: 50px;
       padding: 0px;
       width: 100%;
-      flex-direction: row-reverse;
 }
 
 .brick-img {
@@ -642,6 +641,7 @@ color: white;
       }
 
     }
+
 
 
 
