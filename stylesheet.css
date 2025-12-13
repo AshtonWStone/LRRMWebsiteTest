@@ -118,24 +118,24 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,3) 100%);
 margin-top: 10px;
       bottom: 20px;
 }
-.small_brick {
-  display: flex;
-  gap: 2rem; /* space between image and text */
-  margin: 2rem 0;
-}
 .brick_img {
   width: 500px;
   height: 400px;
-  object-fit: contain;
-   right: 0;
+  object-fit: contain;  
       
 }
+.small_brick {
+  display: flex;
+  gap: 2rem; /* space between image and text */
+  margin-left: 50%;
+}
+
 .small_brick_text {
   font-size: 1.4em;
   line-height: 2.0;
 margin-left: 400px;
 margin-top: 50px;
-      left: 0;
+      margin-right: 64%;
 }
 .med_brick {
   display: flex;
@@ -638,6 +638,7 @@ color: white;
       }
 
     }
+
 
 
 
