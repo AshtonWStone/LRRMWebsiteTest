@@ -127,15 +127,14 @@ margin-top: 10px;
 .small_brick {
   display: flex;
   gap: 2rem; /* space between image and text */
-  margin-left: 50%;
+  margin-left: 0px;
 }
 
 .small_brick_text {
   font-size: 1.4em;
   line-height: 2.0;
-margin-left: 400px;
 margin-top: 50px;
-      margin-right: 64%;
+      margin-right: 0px;
 }
 .med_brick {
   display: flex;
@@ -638,6 +637,7 @@ color: white;
       }
 
     }
+
 
 
 
