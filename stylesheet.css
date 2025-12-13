@@ -122,7 +122,7 @@ margin-top: 10px;
 .small-brick-container, .large-brick-container {
       display: flex;
       align-items: center;
-      gap: 50px;
+      gap: 100px;
       margin-bottom: 50px;
       padding: 0px;
       width: 100%;
@@ -641,6 +641,7 @@ color: white;
       }
 
     }
+
 
 
 
