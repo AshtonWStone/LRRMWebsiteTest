@@ -119,22 +119,22 @@ margin-top: 10px;
       bottom: 20px;
 }
 .small-brick-container, .medium-brick-container, large-brick-container {
-      gap: 20px;
+      gap: 100px;
 }
 .small-brick-container, .large-brick-container {
 align-items: center;
 }
 .small-brick-container, .medium-brick-container {
-      margin-bottom: 25px;
+      margin-bottom: 50px;
 }
 
 .medium-brick-container {
 align-items: center;
-      margin-bottom: 25px;
+      margin-bottom: 50px;
 }
 
 .brick-img {
-width: 200px;
+width: 400px;
 height: auto;
 }
 .brick-text h2 {
@@ -143,11 +143,7 @@ font-weight: bold;
 font-size: 32px;
 }
 
-.brick-text {
-flex: 0;
-}
 .brick-text ul {
-list-style-type: none;
 padding-left: 0;
 }
 
@@ -630,6 +626,7 @@ color: white;
       }
 
     }
+
 
 
 
