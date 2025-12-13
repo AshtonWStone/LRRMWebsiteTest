@@ -118,6 +118,9 @@ background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,3) 100%);
 margin-top: 10px;
       bottom: 20px;
 }
+.small-brick-container, .medium-brick-container, large-brick-container {
+      gap: 20px;
+}
 .small-brick-container, .large-brick-container {
 display: flex;
 align-items: center;
@@ -149,7 +152,7 @@ flex: 1;
 }
 .brick-text ul {
 list-style-type: none;
-padding-left 0;
+padding-left: 0;
 }
 
 .brick-text li {
@@ -631,6 +634,7 @@ color: white;
       }
 
     }
+
 
 
 
