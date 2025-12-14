@@ -145,7 +145,6 @@ margin-top: 10px;
 
 .brick-text {
       flex: 1;
-      width: 100%;
 }
 
 
@@ -643,6 +642,7 @@ color: white;
       }
 
     }
+
 
 
 
