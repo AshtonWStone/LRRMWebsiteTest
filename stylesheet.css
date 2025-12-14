@@ -147,13 +147,6 @@ margin-top: 10px;
       width: 100%;
 }
 
-.small-brick-container > :first-child,
-.large-brick-container > :first-child,
-.medium-brick-container > :first-child {
-  margin-right: 50px;
-}
-
-
 .brick-text h2 {
       color: black;
       font-weight: bold;
@@ -646,6 +639,7 @@ color: white;
       }
 
     }
+
 
 
 
