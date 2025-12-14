@@ -1,7 +1,7 @@
 .color-breakup {
 background-color: #fdf5e6;
       width: 100%;
-      height: 800px;
+      height: 600px;
       overflow: hidden;
 position: relative;
 }
@@ -691,6 +691,7 @@ color: white;
       }
 
     }
+
 
 
 
