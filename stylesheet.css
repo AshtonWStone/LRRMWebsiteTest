@@ -1,7 +1,7 @@
 .color-breakup {
 background-color: #fdf5e6;
       width: 100%;
-      height: 800px
+      height: 800px;
       overflow: hidden;
 }
 .moving-row {
@@ -685,6 +685,7 @@ color: white;
       }
 
     }
+
 
 
 
