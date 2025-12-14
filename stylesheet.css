@@ -19,8 +19,10 @@ position: relative;
       height: auto;
       margin-bottom: 10px;
       display: block;
-      background-image: url(/LRRMWebsiteTest/Photos/five-stars.png);
+      background-image: url('/LRRMWebsiteTest/Photos/five-stars.png');
       background-size: cover;
+      background-repeat: non-repeat;
+      background-position: center;
 }
 .moving-object {
       background-color: #334425;
@@ -694,6 +696,7 @@ color: white;
       }
 
     }
+
 
 
 
