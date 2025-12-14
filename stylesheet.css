@@ -129,7 +129,6 @@ margin-top: 10px;
 
 .medium-brick-container {
       display: flex;
-      align-items: center;
       margin-bottom: 50px;
       padding: 0px;
       width: 100%;
@@ -140,7 +139,6 @@ margin-top: 10px;
       width: 400px;
       height: auto;
       flex-shrink: 0;
-      margin-right: 50px;
 }
 
 .brick-text {
@@ -642,6 +640,7 @@ color: white;
       }
 
     }
+
 
 
 
