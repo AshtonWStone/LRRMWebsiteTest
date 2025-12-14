@@ -5,7 +5,7 @@ background-color: #fdf5e6;
 }
 .color-breakup-brick {
 height: 2px;
-  background-color: #8B4513;
+  background-color: #334425;
   margin: 40px 0;
   width: 80%;
   max-width: 600px;
@@ -289,8 +289,6 @@ color: white;
 /* Address section */
 .footer-middle {
   padding: 15px 0;
-  border-top: 1px solid #446633;
-  border-bottom: 1px solid #446633;
   margin: 15px 0;
 }
 
@@ -647,6 +645,7 @@ color: white;
       }
 
     }
+
 
 
 
