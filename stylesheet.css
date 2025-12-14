@@ -126,7 +126,7 @@ margin-top: 10px;
   display: flex;
   align-items: center;
   gap: 50px;
-  width: 100%;
+      overflow: auto;
       margin-bottom: 25px;
 }
 
@@ -637,6 +637,7 @@ color: white;
       }
 
     }
+
 
 
 
