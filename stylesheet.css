@@ -1,7 +1,48 @@
 .color-breakup {
 background-color: #fdf5e6;
       width: 100%;
-      height: 800px;
+      height: 800px
+      overflow: hidden;
+}
+.moving-row {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      display: flex;
+      gap: 80px;
+      width: max-content;
+      animation: moveRightToLeft 26s linear infinite;
+}
+.moving-object {
+      background-color: #334425;
+      color: white;
+      border-radius: 6px;
+      width: 360px;
+      height: auto;
+      max-heipt: 360px;
+      padding:20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+}
+.moving-object h3 {
+      margin: 0 0 10px 0;
+      font-size: 20px;
+}
+.moving-object p {
+      margin: 0 0 9px 0;
+      font-size: 14px;
+      line-height: 1.4;
+}
+@keyframes moveRightToLeft {
+      from {
+            transform: translateX(100vw) translateY(-50%);
+      }
+      to {
+            transform: translateX(-100%) translateY(-50%);
+      }
 }
 .color-breakup-brick {
 height: 2px;
@@ -644,6 +685,7 @@ color: white;
       }
 
     }
+
 
 
 
