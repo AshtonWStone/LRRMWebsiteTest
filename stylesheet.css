@@ -119,19 +119,13 @@ margin-top: 10px;
       bottom: 20px;
 }
 /* Base brick row styling */
-.small-brick-container, .large-brick-container {
-      display: flex;
-      margin-bottom: 50px;
-      padding: 0px;
-      width: 100%;
-      align-items: center;
-}
-
-.medium-brick-container {
-      display: flex;
-      margin-bottom: 50px;
-      width: 100%;
-      background-color: #334425;
+.small-brick-container,
+.medium-brick-container,
+.large-brick-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
 }
 
 .brick-img {
@@ -638,6 +632,7 @@ color: white;
       }
 
     }
+
 
 
 
