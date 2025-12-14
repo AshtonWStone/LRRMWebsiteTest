@@ -16,10 +16,10 @@ position: relative;
 }
 .review-img-container {
       width: 120px;
-      height: auto;
+      height: 24px;
       margin-bottom: 10px;
       display: block;
-      background-image: url('/LRRMWebsiteTest/Photos/five-stars.png');
+      background-image: url(/LRRMWebsiteTest/Photos/five-stars.png);
       background-size: cover;
       background-repeat: non-repeat;
       background-position: center;
@@ -696,6 +696,7 @@ color: white;
       }
 
     }
+
 
 
 
