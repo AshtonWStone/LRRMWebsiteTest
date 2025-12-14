@@ -121,7 +121,6 @@ margin-top: 10px;
 /* Base brick row styling */
 .small-brick-container, .large-brick-container {
       display: flex;
-      align-items: center;
       margin-bottom: 50px;
       padding: 0px;
       width: 100%;
@@ -130,7 +129,6 @@ margin-top: 10px;
 .medium-brick-container {
       display: flex;
       margin-bottom: 50px;
-      padding: 0px;
       width: 100%;
       background-color: #334425;
 }
@@ -154,7 +152,6 @@ margin-top: 10px;
 }
 
 .brick-text ul {
-      padding-left: 0;
 }
 
 .brick-text li {
@@ -640,6 +637,7 @@ color: white;
       }
 
     }
+
 
 
 
