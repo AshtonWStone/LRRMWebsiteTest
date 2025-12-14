@@ -14,11 +14,13 @@ position: relative;
       width: max-content;
       animation: moveRightToLeft 26s linear infinite;
 }
-.moving-object img {
+.review-img-container {
       width: 120px;
       height: auto;
       margin-bottom: 10px;
       display: block;
+      background-image: url(/LRRMWebsiteTest/Photos/five-stars.png);
+      background-size: cover;
 }
 .moving-object {
       background-color: #334425;
@@ -692,6 +694,7 @@ color: white;
       }
 
     }
+
 
 
 
