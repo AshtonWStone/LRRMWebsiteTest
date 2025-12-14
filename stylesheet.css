@@ -129,16 +129,17 @@ margin-top: 10px;
       overflow: auto;
       margin-bottom: 25px;
 }
-
-
-
-
-
-
+.dividing-line {
+      width: 100%;
+      color: #334425;
+      height: 3px;
+      margin-bottom: 25px;
+}
 .brick-img {
       width: 400px;
       height: auto;
       flex-shrink: 0;
+      margin-right: 50px;
 }
 
 .brick-text {
@@ -637,6 +638,7 @@ color: white;
       }
 
     }
+
 
 
 
