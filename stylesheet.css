@@ -1,3 +1,10 @@
+.tripadvisor-container {
+      wdith: 700px;
+      height: auto;
+      margin-bottom: 10px;
+      display: block;
+}
+
 .color-breakup {
 background-color: #fdf5e6;
       width: 100%;
@@ -696,6 +703,7 @@ color: white;
       }
 
     }
+
 
 
 
