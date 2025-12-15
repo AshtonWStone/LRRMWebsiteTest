@@ -1,4 +1,4 @@
-#heritage-article p {
+#heritage-article p, #christmas-article p, #tractor-article p {
 font-size: 18px;
       line-height: 2.5;
 }
@@ -711,6 +711,7 @@ color: white;
       }
 
     }
+
 
 
 
