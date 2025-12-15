@@ -2,7 +2,8 @@
       wdith: 700px;
       height: auto;
       margin-bottom: 10px;
-      display: block;
+      display: flex;
+      align-items: center;
 }
 
 .color-breakup {
@@ -703,6 +704,7 @@ color: white;
       }
 
     }
+
 
 
 
