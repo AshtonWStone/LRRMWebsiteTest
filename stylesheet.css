@@ -1,5 +1,5 @@
 .tripadvisor-container {
-      wdith: 700px;
+      width: 700px;
       height: auto;
       margin-bottom: 10px;
       display: flex;
@@ -704,6 +704,7 @@ color: white;
       }
 
     }
+
 
 
 
