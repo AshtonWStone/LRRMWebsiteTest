@@ -1,3 +1,10 @@
+.shop_listings_container {
+  margin: 100px 25px 100px 25px;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+} 
+
 #heritage-article p, #christmas-article p, #tractor-article p {
 font-size: 18px;
       line-height: 2.5;
@@ -711,6 +718,7 @@ color: white;
       }
 
     }
+
 
 
 
